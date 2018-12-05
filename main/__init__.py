@@ -22,7 +22,8 @@ app.config.from_object(Config) # 添加配置参数, 在../config.py设定
 
 # 设定跨域访问设定
 cors = CORS(app, resources={r"/*": {"origins": ["http://localhost:8081",
-                                                "http://127.0.0.1:8081"]}}) 
+                                                "http://127.0.0.1:8081",
+                                                "http://open-course-trial.heliumyc.top"]}}) 
 
 CLIENT = pymongo.MongoClient(app.config['MONGO_URI'],
             username=app.config['MONGO_USER'],
