@@ -1,0 +1,693 @@
+Supporting Ideation by Integrating Exploratory Search, Browsing, and Curation ### Supporting Ideation by Integrating Exploratory Search, Browsing, and Curation 
+Personalizing Search on Shared Devices  ### Personalizing Search on Shared Devices  
+Brute force and indexed approaches to pairwise document similarity comparisons with MapReduce ### Brute force and indexed approaches to pairwise document similarity comparisons with MapReduce 
+Evaluating Streams of Evolving News Events ### Evaluating Streams of Evolving News Events 
+Content-enriched Classifier for Web Video Classification ### Content-enriched Classifier for Web Video Classification 
+Unsupervised Estimation of Dirichlet Smoothing Parameters ### Unsupervised Estimation of Dirichlet Smoothing Parameters 
+ERICA  Expert Guidance in Validating Crowd Answers ### ERICA  Expert Guidance in Validating Crowd Answers 
+Leveraging User Reviews to Improve Accuracy for Mobile App Retrieval ### Leveraging User Reviews to Improve Accuracy for Mobile App Retrieval 
+In Situ Insights ### In Situ Insights 
+multi Searcher can we support people to get information from text they can't read or understand ### multi Searcher can we support people to get information from text they can't read or understand 
+Using Term Location Information toEnhance Probabilistic Information Retrieval ### Using Term Location Information toEnhance Probabilistic Information Retrieval 
+Learning More Powerful Test Statistics for Click-Based Retrieval Evaluation ### Learning More Powerful Test Statistics for Click-Based Retrieval Evaluation 
+Splitting Water Precision and Anti-Precision to Reduce Pool Bias ### Splitting Water Precision and Anti-Precision to Reduce Pool Bias 
+CrowdReranking exploring multiple search engines for visual search reranking ### CrowdReranking exploring multiple search engines for visual search reranking 
+Template-independent Wrapper for Web Forums ### Template-independent Wrapper for Web Forums 
+Towards Vandalism Detection in Knowledge Bases Corpus Construction and Analysis ### Towards Vandalism Detection in Knowledge Bases Corpus Construction and Analysis 
+Query Sampling for Ranking Learning in Web Search ### Query Sampling for Ranking Learning in Web Search 
+HSpam14 A Collection of 14 Million Tweets for Hashtag-Oriented Spam Research ### HSpam14 A Collection of 14 Million Tweets for Hashtag-Oriented Spam Research 
+High Precision Retrieval Using Relevance-Flow Graph ### High Precision Retrieval Using Relevance-Flow Graph 
+Building and Using Models of Information Seeking, Search and Retrieval ### Building and Using Models of Information Seeking, Search and Retrieval 
+Using dynamic markov compression to detect vandalism in the wikipedia ### Using dynamic markov compression to detect vandalism in the wikipedia 
+Cross Language Name Matching ### Cross Language Name Matching 
+Reachability based Ranking in Interactive Image Retrieval ### Reachability based Ranking in Interactive Image Retrieval 
+Advanced Click Models and their Applications to IR SIGIR 2015 Tutorial ### Advanced Click Models and their Applications to IR SIGIR 2015 Tutorial 
+Exploiting memory cues in personal lifelog retrieval ### Exploiting memory cues in personal lifelog retrieval 
+Contextual Support for Collaborative Information Retrieval ### Contextual Support for Collaborative Information Retrieval 
+Combining Coregularization and Consensus-based Self-Training for Multilingual Text Categorization ### Combining Coregularization and Consensus-based Self-Training for Multilingual Text Categorization 
+Approximating true relevance distribution from a mixture model based on irrelevance data ### Approximating true relevance distribution from a mixture model based on irrelevance data 
+Correlation Between System and User Metrics in a Session ### Correlation Between System and User Metrics in a Session 
+Fast Algorithm to Rank Documents with Additive Ensembles of Regression Trees ### Fast Algorithm to Rank Documents with Additive Ensembles of Regression Trees 
+Context transfer in search advertising ### Context transfer in search advertising 
+LBMCH  Learning Bridging Mapping for Cross-modal Hashing ### LBMCH  Learning Bridging Mapping for Cross-modal Hashing 
+Understanding User Satisfaction with Intelligent Assistants ### Understanding User Satisfaction with Intelligent Assistants 
+Learning to Select Rankers ### Learning to Select Rankers 
+Modeling Optimal Switching Behavior ### Modeling Optimal Switching Behavior 
+S-PLASA+ adaptive sentiment analysis with application to sales performance prediction ### S-PLASA+ adaptive sentiment analysis with application to sales performance prediction 
+Ranking for the conversion funnel ### Ranking for the conversion funnel 
+Using scatterplots to understand and improve probabilistic models for text categorization and retrieval ### Using scatterplots to understand and improve probabilistic models for text categorization and retrieval 
+Information-based models for ad hoc IR ### Information-based models for ad hoc IR 
+A joint probabilistic classification model for resource selection ### A joint probabilistic classification model for resource selection 
+Positional language models for information retrieval ### Positional language models for information retrieval 
+CompositeMap  a novel framework for music similarity measure ### CompositeMap  a novel framework for music similarity measure 
+Practical Lessons for Gathering Quality Labels at Scale  ### Practical Lessons for Gathering Quality Labels at Scale  
+Information (Re)Use in Context ### Information (Re)Use in Context 
+Load-sensitive CPU Power Management for Web Search Engines ### Load-sensitive CPU Power Management for Web Search Engines 
+An Introduction to Click Models for Web Search  SIGIR 2015 Tutorial ### An Introduction to Click Models for Web Search  SIGIR 2015 Tutorial 
+Image search by concept map ### Image search by concept map 
+Undergraduates' evaluations of assigned search topics ### Undergraduates' evaluations of assigned search topics 
+Time Pressure and System Delays in Information Search  ### Time Pressure and System Delays in Information Search  
+User Experience Dimensions A Systematic Approach to Experiential Qualities for Evaluating Information Interaction in Museums ### User Experience Dimensions A Systematic Approach to Experiential Qualities for Evaluating Information Interaction in Museums 
+Using search session context for named entity recognition in query ### Using search session context for named entity recognition in query 
+Evaluating Touch-Based Interactions in an Image Search Task ### Evaluating Touch-Based Interactions in an Image Search Task 
+A Ranking Approach to Target Detection for Automatic Link Generation ### A Ranking Approach to Target Detection for Automatic Link Generation 
+Time-Aware Authorship Attribution for Short Text Streams ### Time-Aware Authorship Attribution for Short Text Streams 
+Topic (query) selection for IR evaluation ### Topic (query) selection for IR evaluation 
+Learning to Translate Queries for CLIR ### Learning to Translate Queries for CLIR 
+Incorporating Non-sequential Behavior into Click Models ### Incorporating Non-sequential Behavior into Click Models 
+WEMAREC  Accurate and Scalable Recommendation through Weighted and Ensemble Matrix Approximation ### WEMAREC  Accurate and Scalable Recommendation through Weighted and Ensemble Matrix Approximation 
+From Queries to Cards ### From Queries to Cards 
+Predicting User Behavior in Display Advertising via Dynamic Collective Matrix Factorization ### Predicting User Behavior in Display Advertising via Dynamic Collective Matrix Factorization 
+Learning hidden variable models for blog retrieval ### Learning hidden variable models for blog retrieval 
+Non-Compositional Term Dependence for Information Retrieval ### Non-Compositional Term Dependence for Information Retrieval 
+Active Learning for Ranking through Expected Loss Optimization ### Active Learning for Ranking through Expected Loss Optimization 
+Relevance Scores for Triples from Type-Like Relations ### Relevance Scores for Triples from Type-Like Relations 
+Evaluating Body-Centered Interactions in an Image Search Task ### Evaluating Body-Centered Interactions in an Image Search Task 
+User centered story tracking ### User centered story tracking 
+adaQAC  Adaptive Query Auto-Completion via Implicit Negative Feedback ### adaQAC  Adaptive Query Auto-Completion via Implicit Negative Feedback 
+Automatic Feature Generation on Heterogeneous Graph for Music Recommendation ### Automatic Feature Generation on Heterogeneous Graph for Music Recommendation 
+A case for improved evaluation of query difficulty prediction ### A case for improved evaluation of query difficulty prediction 
+SIGIR 2015 Workshop on Reproducibility, Inexplicability, and Generalizability of Results (RIGOR) ### SIGIR 2015 Workshop on Reproducibility, Inexplicability, and Generalizability of Results (RIGOR) 
+Can Search Systems Detect Users' Task Difficulty Some Behavioral Signals ### Can Search Systems Detect Users' Task Difficulty Some Behavioral Signals 
+Information Retrieval Behaviors among EBM Practitioners when performing Evidence Based Medicine ### Information Retrieval Behaviors among EBM Practitioners when performing Evidence Based Medicine 
+Personalize Web Search Results with User's Location ### Personalize Web Search Results with User's Location 
+A User Behavior Model for Average Precision and its Generalization to Graded Judgments ### A User Behavior Model for Average Precision and its Generalization to Graded Judgments 
+Comparing Click-through Data to Purchase Decisions for Retrieval Evaluation ### Comparing Click-through Data to Purchase Decisions for Retrieval Evaluation 
+Text Document Clustering with Metric Learning ### Text Document Clustering with Metric Learning 
+Compressing term positions in web indexes ### Compressing term positions in web indexes 
+Semi-supervised Hashing with Semantic Confidence for Large Scale Visual Search ### Semi-supervised Hashing with Semantic Confidence for Large Scale Visual Search 
+Robust sparse rank learning for non-smooth ranking measures ### Robust sparse rank learning for non-smooth ranking measures 
+Reducing long queries using query quality predictors ### Reducing long queries using query quality predictors 
+Predicting stopping behaviour a preliminary analysis ### Predicting stopping behaviour a preliminary analysis 
+Simultaneously modeling semantics and structure of threaded discussions a sparse coding approach and its applications ### Simultaneously modeling semantics and structure of threaded discussions a sparse coding approach and its applications 
+The Demographics of Web Search ### The Demographics of Web Search 
+Flickr group recommendation based on tensor decomposition ### Flickr group recommendation based on tensor decomposition 
+Protein identification as an information retrieval problem ### Protein identification as an information retrieval problem 
+CricketLinking Linking Event Mentions from Cricket Match Reports to Ball Entities in Commentaries ### CricketLinking Linking Event Mentions from Cricket Match Reports to Ball Entities in Commentaries 
+Leveraging sources of collective wisdom on the web for discovering technology synergies ### Leveraging sources of collective wisdom on the web for discovering technology synergies 
+From Unlabelled Tweets to Twitter-specific Opinion Words ### From Unlabelled Tweets to Twitter-specific Opinion Words 
+You Can Check It Out But It Will Never Leave Characterising Ebook Borrowing Patterns ### You Can Check It Out But It Will Never Leave Characterising Ebook Borrowing Patterns 
+The Benefits of Magnitude Estimation Relevance Assessments for Information Retrieval Evaluation ### The Benefits of Magnitude Estimation Relevance Assessments for Information Retrieval Evaluation 
+Context- and Content-aware Embeddings for Query Rewriting in Sponsored Search ### Context- and Content-aware Embeddings for Query Rewriting in Sponsored Search 
+Personalizing information retrieval using task features, topic knowledge, and task product ### Personalizing information retrieval using task features, topic knowledge, and task product 
+Relevance criteria for e-commerce a crowdsourcing-based experimental analysis ### Relevance criteria for e-commerce a crowdsourcing-based experimental analysis 
+Islands in the Stream A Study of Item Recommendation within an Enterprise Social Stream  ### Islands in the Stream A Study of Item Recommendation within an Enterprise Social Stream  
+Entropy-biased models for query representation on the click graph ### Entropy-biased models for query representation on the click graph 
+Agate information gathering for risk monitoring ### Agate information gathering for risk monitoring 
+Context-Aware Query Classification ### Context-Aware Query Classification 
+Query quality user ratings and system predictions. ### Query quality user ratings and system predictions  
+Automatic Video Tagging using Content Redundancy ### Automatic Video Tagging using Content Redundancy 
+Combining audio content and social context for semantic music discovery ### Combining audio content and social context for semantic music discovery 
+Classifying library catalogue by author profiling ### Classifying library catalogue by author profiling 
+Dynamic Query Modeling for Related Content Finding ### Dynamic Query Modeling for Related Content Finding 
+Modularity-Based Query Clustering for Identifying Users Sharing a Common Condition ### Modularity-Based Query Clustering for Identifying Users Sharing a Common Condition 
+A syntactic tree matching approach to finding similar questions in community-based qa services ### A syntactic tree matching approach to finding similar questions in community-based qa services 
+Temporal diversity in recommender systems ### Temporal diversity in recommender systems 
+Effective Music Tagging through Advanced Statistical ModelingRobust Audio Identification for MP3 Popular Music ### Effective Music Tagging through Advanced Statistical ModelingRobust Audio Identification for MP3 Popular Music 
+A statistical comparison of tag and query logs ### A statistical comparison of tag and query logs 
+Concept representation based video indexing ### Concept representation based video indexing 
+Deepening the Role of the User Neuro-Physiological Evidence as a Basis for Studying and Improving Search ### Deepening the Role of the User Neuro-Physiological Evidence as a Basis for Studying and Improving Search 
+Entity information management in complex networks ### Entity information management in complex networks 
+Speeding up Document Ranking with Rank-based Features ### Speeding up Document Ranking with Rank-based Features 
+A Spoken Dialog System for Coordinating Information Consumption and Exploration ### A Spoken Dialog System for Coordinating Information Consumption and Exploration 
+Predicting searcher frustration ### Predicting searcher frustration 
+Do User Preferences and Evaluation Measures Line Up ### Do User Preferences and Evaluation Measures Line Up 
+Evaluating verbose query processing techniques ### Evaluating verbose query processing techniques 
+Who said what to whom capturing the structure of debates ### Who said what to whom capturing the structure of debates 
+Exploring the Use of Query Auto Completion Search Behavior and Query Entry Profiles ### Exploring the Use of Query Auto Completion Search Behavior and Query Entry Profiles 
+Adaptive Near-Duplicate Detection via Similarity Learning ### Adaptive Near-Duplicate Detection via Similarity Learning 
+A Data-Parallel Toolkit for Information Retrieval ### A Data-Parallel Toolkit for Information Retrieval 
+Towards methods for the collective gathering and quality control of relevance assessments ### Towards methods for the collective gathering and quality control of relevance assessments 
+Multiclass VisualRank image ranking method in clustered subsets based on visual features ### Multiclass VisualRank image ranking method in clustered subsets based on visual features 
+What Queries are Likely to Recur in Web Search ### What Queries are Likely to Recur in Web Search 
+Telling experts from spammers expertise ranking in folksonomies ### Telling experts from spammers expertise ranking in folksonomies 
+Personalized Music Emotion Recognition ### Personalized Music Emotion Recognition 
+Opinion mining from noisy text data ### Opinion mining from noisy text data 
+Effective Query Expansion with the Resistance Distance Based Term Similarity Metric ### Effective Query Expansion with the Resistance Distance Based Term Similarity Metric 
+Score and rank convergence of HITS ### Score and rank convergence of HITS 
+To translate or not to translate ### To translate or not to translate 
+Intent Boundary Detection in Search Query Logs ### Intent Boundary Detection in Search Query Logs 
+Active and Passive Utility of Search Interface Features in Different Information Seeking Task Stages ### Active and Passive Utility of Search Interface Features in Different Information Seeking Task Stages 
+Using Sensor Metadata Streams to Identify Topics of Local Events in the City ### Using Sensor Metadata Streams to Identify Topics of Local Events in the City 
+Optimal Aggregation Policy for Reducing Tail Latency of Web Search ### Optimal Aggregation Policy for Reducing Tail Latency of Web Search 
+Finding Answers in Web Search  ### Finding Answers in Web Search  
+Structure, Personalization, Scale A Deep Dive into LinkedIn Search ### Structure, Personalization, Scale A Deep Dive into LinkedIn Search 
+Successfully detecting and correcting false friends using channel profiles ### Successfully detecting and correcting false friends using channel profiles 
+Enhancing Cluster Labeling Using Wikipedia ### Enhancing Cluster Labeling Using Wikipedia 
+Aspect presence verification conditional on other aspects ### Aspect presence verification conditional on other aspects 
+Modeling uncertainty in video retrieval a retrieval model for uncertain semantic representations of videos ### Modeling uncertainty in video retrieval a retrieval model for uncertain semantic representations of videos 
+Improving Sentence Retrieval with an Importance Prior ### Improving Sentence Retrieval with an Importance Prior 
+Two-Stage Query Segmentation for Information Retrieval ### Two-Stage Query Segmentation for Information Retrieval 
+The Best Published Result is Random Sequential Testing and its Effect on Reported Effectiveness ### The Best Published Result is Random Sequential Testing and its Effect on Reported Effectiveness 
+Summarizing Contrastive Themes via Hierarchical Non-Parametric Processes ### Summarizing Contrastive Themes via Hierarchical Non-Parametric Processes 
+Has Adhoc Retrieval Improved Since 1994 ### Has Adhoc Retrieval Improved Since 1994 
+Prototype hierarchy based clustering for the categorization and navigation of web collections ### Prototype hierarchy based clustering for the categorization and navigation of web collections 
+Fitting score distribution for blog opinion retrieval ### Fitting score distribution for blog opinion retrieval 
+Blog snippets a comments-biased approach ### Blog snippets a comments-biased approach 
+From federated to aggregated search ### From federated to aggregated search 
+Introduction to probabilistic models in IR ### Introduction to probabilistic models in IR 
+An AID for Avoiding Inadvertent Disclosure  Supporting Interactive Review for Privilege in E-Discovery ### An AID for Avoiding Inadvertent Disclosure  Supporting Interactive Review for Privilege in E-Discovery 
+Toponym Ambiguity in Geographical Information Retrieval ### Toponym Ambiguity in Geographical Information Retrieval 
+Web derived pronunciations for spoken term detection ### Web derived pronunciations for spoken term detection 
+A latent topic model for linked documents ### A latent topic model for linked documents 
+Shiny on Your Crazy Diagonal ### Shiny on Your Crazy Diagonal 
+Semantic hashing ### Semantic hashing 
+Agro-Gator digesting experts, logs, and N-grams ### Agro-Gator digesting experts, logs, and N-grams 
+How Many Results Per Page A Study of SERP Size, Search Behavior and User Experienc ### How Many Results Per Page A Study of SERP Size, Search Behavior and User Experienc 
+Understanding web browsing behaviors through Weibull analysis of dwell time ### Understanding web browsing behaviors through Weibull analysis of dwell time 
+Context-aware Point-of-Interest Recommendation Using Tensor Factorization with Social Regularization ### Context-aware Point-of-Interest Recommendation Using Tensor Factorization with Social Regularization 
+Enhancing Mathematics Information Retrieval ### Enhancing Mathematics Information Retrieval 
+System And User Centered Evaluation Approaches in Interactive Information Retrieval (SAUCE 2016) ### System And User Centered Evaluation Approaches in Interactive Information Retrieval (SAUCE 2016) 
+Learning to rank only using training data from related domain ### Learning to rank only using training data from related domain 
+Sequential Testing for Early Stopping of Online Experiments ### Sequential Testing for Early Stopping of Online Experiments 
+Investigation on smoothing and aggregation methods in blog retrieval ### Investigation on smoothing and aggregation methods in blog retrieval 
+Is the Cranfield Paradigm Outdated ### Is the Cranfield Paradigm Outdated 
+Learning the Click-Through Rate for Rare New Ads from Similar Ads ### Learning the Click-Through Rate for Rare New Ads from Similar Ads 
+Using topic models for OCR correction ### Using topic models for OCR correction 
+Caching search engine results over incremental indices ### Caching search engine results over incremental indices 
+System Scoring Using Partial Prior Information ### System Scoring Using Partial Prior Information 
+When more is less the paradox of choice in search engine use ### When more is less the paradox of choice in search engine use 
+A comparison of retrieval-based hierarchical clustering approaches to person name disambiguation ### A comparison of retrieval-based hierarchical clustering approaches to person name disambiguation 
+Unconscious Physiological Effects of Search Latency on Users and Their Click Behaviour ### Unconscious Physiological Effects of Search Latency on Users and Their Click Behaviour 
+Searcher in a Strange Land  Understanding Web Search from Familiar and Unfamiliar Locations ### Searcher in a Strange Land  Understanding Web Search from Familiar and Unfamiliar Locations 
+Evolutionary document summarization for disaster management ### Evolutionary document summarization for disaster management 
+Discriminative Models of Integrating Document Evidence and Document-Candidate Associations for Expert Search ### Discriminative Models of Integrating Document Evidence and Document-Candidate Associations for Expert Search 
+About the Compromised Information Need' and Optimal Interaction as Quality Measure for Search Interfaces ### About the 'Compromised Information Need' and Optimal Interaction as Quality Measure for Search Interfaces 
+On statistical analysis and optimization of information retrieval effectiveness metrics ### On statistical analysis and optimization of information retrieval effectiveness metrics 
+Query Similarity by Projecting the Query-Flow Graph ### Query Similarity by Projecting the Query-Flow Graph 
+An Entity Class-Dependent Discriminative Mixture Model for Cumulative Citation Recommendation ### An Entity Class-Dependent Discriminative Mixture Model for Cumulative Citation Recommendation 
+Uncovering Crowdsourced Manipulation of Online Reviews ### Uncovering Crowdsourced Manipulation of Online Reviews 
+A Word Embedding based Generalized Language Model for Information Retrieval ### A Word Embedding based Generalized Language Model for Information Retrieval 
+Rationale and Architecture for Incorporating Human Oculomotor Plant Features in User Interest Modeling ### Rationale and Architecture for Incorporating Human Oculomotor Plant Features in User Interest Modeling 
+Time Pressure in Information Search ### Time Pressure in Information Search 
+How good is a span of terms  Exploiting Proximity to Improve Web Retrieval ### How good is a span of terms  Exploiting Proximity to Improve Web Retrieval 
+Users' stopping behaviors and estimates of recall ### Users' stopping behaviors and estimates of recall 
+Learning to Rank Query Reformulations ### Learning to Rank Query Reformulations 
+Subsequence Search in Event-Interval Sequences ### Subsequence Search in Event-Interval Sequences 
+Generalized syntactic and semantic models of query reformulation ### Generalized syntactic and semantic models of query reformulation 
+Reusable Test Collections Through Experimental Design ### Reusable Test Collections Through Experimental Design 
+Multi-Style Language Model for Web Scale Information Retrieval ### Multi-Style Language Model for Web Scale Information Retrieval 
+Temporally-aware algorithms for document calssification ### Temporally-aware algorithms for document calssification 
+Efficient Partial-Duplicate Detection Based on Sequence Matching ### Efficient Partial-Duplicate Detection Based on Sequence Matching 
+Comparing both relevance and robustness in selection of web ranking functions ### Comparing both relevance and robustness in selection of web ranking functions 
+Effects of Topic Familiarity on Query Reformulation Strategies ### Effects of Topic Familiarity on Query Reformulation Strategies 
+Estimating query performance using class predictions ### Estimating query performance using class predictions 
+The Wisdom of the Few ### The Wisdom of the Few 
+TwIST A Mobile Approach for Searching and Exploring within Twitter ### TwIST A Mobile Approach for Searching and Exploring within Twitter 
+Query forwarding in geographically distributed search engines ### Query forwarding in geographically distributed search engines 
+About the Compromised Information Need and Optimal Interaction as Quality Measure for Search Interfaces ### About the 'Compromised Information Need' and Optimal Interaction as Quality Measure for Search Interfaces 
+Information Retrieval for E-Discovery ### Information Retrieval for E-Discovery 
+Leveraging user interaction and collaboration for improving multilingual information access in digital libraries ### Leveraging user interaction and collaboration for improving multilingual information access in digital libraries 
+Page hunt improving search engines using human computation games ### Page hunt improving search engines using human computation games 
+Retrieval from Noisy E-Discovery Corpus in the Absence of Training Data ### Retrieval from Noisy E-Discovery Corpus in the Absence of Training Data 
+Portfolio Theory of Information Retrieval ### Portfolio Theory of Information Retrieval 
+Incremental Sampling in Query Logs ### Incremental Sampling in Query Logs 
+PRES A Score Metric for Evaluating Recall-Oriented Information Retrieval Applications ### PRES A Score Metric for Evaluating Recall-Oriented Information Retrieval Applications 
+Learning to Reweight Terms with Distributed Representations ### Learning to Reweight Terms with Distributed Representations 
+Spam filter evaluation with imprecise ground truth ### Spam filter evaluation with imprecise ground truth 
+Cross-Language Retrieval Using Link-Based Language Models ### Cross-Language Retrieval Using Link-Based Language Models 
+Social Media Recommendation based on People and Tags ### Social Media Recommendation based on People and Tags 
+Late Fusion of Compact Composite Descriptors for Retrieval from Heterogeneous Image Databases ### Late Fusion of Compact Composite Descriptors for Retrieval from Heterogeneous Image Databases 
+Revisiting the Foundations of IR Timeless, Yet Timely ### Revisiting the Foundations of IR Timeless, Yet Timely 
+From networks to human behavior ### From networks to human behavior 
+AdOn an intelligent overlay video advertising system ### AdOn an intelligent overlay video advertising system 
+On Identifying the Bounds of an Internet Resource ### On Identifying the Bounds of an Internet Resource 
+Pharos An Audiovisual Search Platform ### Pharos An Audiovisual Search Platform 
+Health Information Seeking Behavior among College Students A Case in a Developing Country ### Health Information Seeking Behavior among College Students A Case in a Developing Country 
+Towards a Game-Theoretic Framework  for Information Retrieval  ### Towards a Game-Theoretic Framework  for Information Retrieval  
+Mining employment market via text block detection and adaptive cross-domain information extraction ### Mining employment market via text block detection and adaptive cross-domain information extraction 
+Machine learned ranking of entity facets ### Machine learned ranking of entity facets 
+A Similarity Measure for Weaving Patterns in Textiles ### A Similarity Measure for Weaving Patterns in Textiles 
+A Content based Approach for Discovering Missing Anchor Text for Web Search ### A Content based Approach for Discovering Missing Anchor Text for Web Search 
+The importance of manual assessment in link discovery ### The importance of manual assessment in link discovery 
+Predicting Search Satisfaction Metrics with Interleaved Comparisons ### Predicting Search Satisfaction Metrics with Interleaved Comparisons 
+Reciprocal rank fusion outperforms condorcet and individual rank learning methods ### Reciprocal rank fusion outperforms condorcet and individual rank learning methods 
+Topic Set Size Redux ### Topic Set Size Redux 
+An effective coherence measure to determine topical consistency in user-generated content ### An effective coherence measure to determine topical consistency in user-generated content 
+Comparing the Sensitivity of Information Retrieval Metrics ### Comparing the Sensitivity of Information Retrieval Metrics 
+SciNet  Interactive Intent Modeling for Information Discovery ### SciNet  Interactive Intent Modeling for Information Discovery 
+Ranking Community Answers by Modeling Question-Answer Relationships via Analogical Reasoning ### Ranking Community Answers by Modeling Question-Answer Relationships via Analogical Reasoning 
+Learning to Recommend with Social Trust Ensemble ### Learning to Recommend with Social Trust Ensemble 
+Query side evaluation  an empirical analysis of effectiveness and effort ### Query side evaluation  an empirical analysis of effectiveness and effort 
+SUSHI scoring scaled samples for server selection ### SUSHI scoring scaled samples for server selection 
+Estimating probabilities for effective data fusion ### Estimating probabilities for effective data fusion 
+Proximity-Based Opinion Retrieval ### Proximity-Based Opinion Retrieval 
+Multi-Faceted Recall of Continuous Active Learning for Technology-Assisted Review ### Multi-Faceted Recall of Continuous Active Learning for Technology-Assisted Review 
+Regularised Cross-Modal Hashing ### Regularised Cross-Modal Hashing 
+Active Learning for Entity Filtering in Microblog Streams ### Active Learning for Entity Filtering in Microblog Streams 
+Exploiting Click-Through Data for Entity Retrieval ### Exploiting Click-Through Data for Entity Retrieval 
+How Random Decisions Affect Selective Distributed Search ### How Random Decisions Affect Selective Distributed Search 
+Impacts of Time Constraints and System Delays on User Experience ### Impacts of Time Constraints and System Delays on User Experience 
+Clicked Phrase Document Expansion for Sponsored Search Ad Retrieval ### Clicked Phrase Document Expansion for Sponsored Search Ad Retrieval 
+Analysis of structural relationships for hierarchical cluster labeling ### Analysis of structural relationships for hierarchical cluster labeling 
+Monolingual and Cross-Lingual Information Retrieval Models Based on (Bilingual) Word Embeddings ### Monolingual and Cross-Lingual Information Retrieval Models Based on (Bilingual) Word Embeddings 
+Rank-GeoFM A Ranking based Geographical Factorization Method for Point of Interest Recommendation ### Rank-GeoFM A Ranking based Geographical Factorization Method for Point of Interest Recommendation 
+On the relative age of spam and ham training samples for email filtering ### On the relative age of spam and ham training samples for email filtering 
+Multilingual PR  English Lends a Helping Hand ### Multilingual PR  English Lends a Helping Hand 
+Building Realistic Simulations for Interactive Information Retrieval ### Building Realistic Simulations for Interactive Information Retrieval 
+Search Engine Evaluation based on Search Engine Switching Prediction ### Search Engine Evaluation based on Search Engine Switching Prediction 
+An Initial Investigation into Fixed and Adaptive Stopping Strategies ### An Initial Investigation into Fixed and Adaptive Stopping Strategies 
+Using Local Precision to Compare Search Engines in Consumer Health Information Retrieval ### Using Local Precision to Compare Search Engines in Consumer Health Information Retrieval 
+Evaluating Retrieval Models through Histogram Analysis ### Evaluating Retrieval Models through Histogram Analysis 
+Serendipitous recommendations via innovators ### Serendipitous recommendations via innovators 
+Video Test Collection with Graded Relevance Assessments ### Video Test Collection with Graded Relevance Assessments 
+Using Computational Community Interest as an Indicator for Ranking ### Using Computational Community Interest as an Indicator for Ranking 
+SIGIR 2015 Workshop on Temporal, Social and Spatially-aware Information Access (#TAIA2015) ### SIGIR 2015 Workshop on Temporal, Social and Spatially-aware Information Access (#TAIA2015) 
+Achieving high accuracy retrieval using intra-document term ranking ### Achieving high accuracy retrieval using intra-document term ranking 
+Exploring the Benefits of 2D Visualizations for Drum Samples Retrieval ### Exploring the Benefits of 2D Visualizations for Drum Samples Retrieval 
+Automatic URL completion and prediction using fuzzy type-ahead search ### Automatic URL completion and prediction using fuzzy type-ahead search 
+SugarCube quantification of topic propagation in the blogosphere using percolation theory ### SugarCube quantification of topic propagation in the blogosphere using percolation theory 
+Sub-document Timestamping of Web Documents ### Sub-document Timestamping of Web Documents 
+GeoSoCa Exploiting Geographical, Social and Categorical Correlations for Point-of-Interest Recommendations ### GeoSoCa Exploiting Geographical, Social and Categorical Correlations for Point-of-Interest Recommendations 
+Agreement among statistical significance tests for information retrieval evaluation at varying sample sizes ### Agreement among statistical significance tests for information retrieval evaluation at varying sample sizes 
+Evaluating Web Search Using Task Completion Time ### Evaluating Web Search Using Task Completion Time 
+Exploiting User and Business Attributes for Personalized Business Recommendation ### Exploiting User and Business Attributes for Personalized Business Recommendation 
+Finding advertising keywords on video scripts ### Finding advertising keywords on video scripts 
+A Test Collection for Spoken Gujarati Queries ### A Test Collection for Spoken Gujarati Queries 
+Query Term Ranking based on Dependency Parsing of Verbose Queries ### Query Term Ranking based on Dependency Parsing of Verbose Queries 
+When Relevance Judgement is Happening An EEG-based Study ### When Relevance Judgement is Happening An EEG-based Study 
+Closed form solution of similarity algorithms ### Closed form solution of similarity algorithms 
+Integrating phrase inseparability in phrase-based model ### Integrating phrase inseparability in phrase-based model 
+DINFRA  A One Stop Shop for Computing Multilingual Semantic Relatedness ### DINFRA  A One Stop Shop for Computing Multilingual Semantic Relatedness 
+Exploring Session Context using Distributed Representations of Queries and Reformulations ### Exploring Session Context using Distributed Representations of Queries and Reformulations 
+Incorporating Global Information into Named Entity Recognition Systems using Relational Context ### Incorporating Global Information into Named Entity Recognition Systems using Relational Context 
+Challenges of Mathematical Information Retrievalin the NTCIR-11 Math Wikipedia Task ### Challenges of Mathematical Information Retrievalin the NTCIR-11 Math Wikipedia Task 
+Quantifying performance and quality gains in distributed web search engines ### Quantifying performance and quality gains in distributed web search engines 
+SPS'15 - 2015 International Workshop on Social Personalization & Search ### SPS'15 - 2015 International Workshop on Social Personalization & Search 
+Adapted B-CUBED Metrics to Unbalanced Datasets ### Adapted B-CUBED Metrics to Unbalanced Datasets 
+A general matrix framework for modelling Information Retrieval ### A general matrix framework for modelling Information Retrieval 
+Challenges and Opportunities in Online Evaluation of Search Engines ### Challenges and Opportunities in Online Evaluation of Search Engines 
+Using document structure for automatic summarization ### Using document structure for automatic summarization 
+Personalized Recommendation via Parameter-Free Contextual Bandits ### Personalized Recommendation via Parameter-Free Contextual Bandits 
+From fusion to re-ranking a semantic approach ### From fusion to re-ranking a semantic approach 
+The Impact of Crawl Policy on Web Search Effectiveness ### The Impact of Crawl Policy on Web Search Effectiveness 
+Beyond session segmentation predicting changes in search intent with client-side user interactions ### Beyond session segmentation predicting changes in search intent with client-side user interactions 
+Affective adaptive retrieval study of emotion in adaptive retrieval ### Affective adaptive retrieval study of emotion in adaptive retrieval 
+Linking wikipedia to the web ### Linking wikipedia to the web 
+Information Retrieval with Verbose Queries ### Information Retrieval with Verbose Queries 
+Learning to Extract Local Events from the Web ### Learning to Extract Local Events from the Web 
+Differences in the Use of Search Assistance for Tasks of Varying Complexity ### Differences in the Use of Search Assistance for Tasks of Varying Complexity 
+Opinion Spammer Detection in Web Forum  ### Opinion Spammer Detection in Web Forum  
+Personalized Semantic Ranking for Collaborative Recommendation ### Personalized Semantic Ranking for Collaborative Recommendation 
+Named Entity Recognition in Query ### Named Entity Recognition in Query 
+A network-based model for high-dimensional information filtering ### A network-based model for high-dimensional information filtering 
+Geometric representations for multiple documents ### Geometric representations for multiple documents 
+Global ranking by exploiting user clicks ### Global ranking by exploiting user clicks 
+Learning in a pairwise term-term proximity framework for information retrieval ### Learning in a pairwise term-term proximity framework for information retrieval 
+Cluster-Based Query Expansion ### Cluster-Based Query Expansion 
+Ranking using multiple document types in desktop search ### Ranking using multiple document types in desktop search 
+A study on performance volatility in information retrieval ### A study on performance volatility in information retrieval 
+A framework for understanding Latent Semantic Indexing (LSI) performance ### A framework for understanding Latent Semantic Indexing (LSI) performance 
+Modeling Website Topic Cohesion at Scale to Improve Webpage Classification ### Modeling Website Topic Cohesion at Scale to Improve Webpage Classification 
+On rank correlation and the distance between rankings ### On rank correlation and the distance between rankings 
+A framework for BM25F-based XML retrieval ### A framework for BM25F-based XML retrieval 
+Usefulness of click-through data in expert search ### Usefulness of click-through data in expert search 
+Freshness matters in flowers, food, and web authority ### Freshness matters in flowers, food, and web authority 
+Self-taught hashing for fast similarity search ### Self-taught hashing for fast similarity search 
+On Performance of Topical Opinion Retrieval ### On Performance of Topical Opinion Retrieval 
+Assessing Learning Outcomes in Web Search  A Comparison of Tasks and Query Strategies ### Assessing Learning Outcomes in Web Search  A Comparison of Tasks and Query Strategies 
+Finding Money in the Haystack  Information Retrieval at Bloomberg ### Finding Money in the Haystack  Information Retrieval at Bloomberg 
+Collecting High Quality Overlapping Labels at Low Cost ### Collecting High Quality Overlapping Labels at Low Cost 
+IR Evaluation Designing an End-to-End Offline Evaluation Pipeline ### IR Evaluation Designing an End-to-End Offline Evaluation Pipeline 
+Deep versus Shallow Judgments in Learning to Rank ### Deep versus Shallow Judgments in Learning to Rank 
+Expertise Search in Academia using Facets ### Expertise Search in Academia using Facets 
+Inter-Category Variation in Location Search ### Inter-Category Variation in Location Search 
+Vapor Engine Demonstrating an Early Prototype of a Language-Independent Search Engine for Speech ### Vapor Engine Demonstrating an Early Prototype of a Language-Independent Search Engine for Speech 
+Privacy-Preserving IR 2015 When Information Retrieval Meets Privacy and Security ### Privacy-Preserving IR 2015 When Information Retrieval Meets Privacy and Security 
+iCollaborat  Harvesting Value from Enterprise Web Usage ### iCollaborat  Harvesting Value from Enterprise Web Usage 
+A Head-Weighted Gap-Sensitive Correlation Coefficient ### A Head-Weighted Gap-Sensitive Correlation Coefficient 
+Towards Understanding the Impact of Length in Web Search Result Summaries over a Speech-only Communication Channel ### Towards Understanding the Impact of Length in Web Search Result Summaries over a Speech-only Communication Channel 
+Enhancing topical ranking with preferences from click-through data ### Enhancing topical ranking with preferences from click-through data 
+Transfer Learning for Information Retrieval ### Transfer Learning for Information Retrieval 
+It pays to be picky an evaluation of thread retrieval in online forums ### It pays to be picky an evaluation of thread retrieval in online forums 
+Crowdsourcing a Wikipedia Vandalism Corpus ### Crowdsourcing a Wikipedia Vandalism Corpus 
+Efficient Query Expansion for Advertisement Search ### Efficient Query Expansion for Advertisement Search 
+Learning Hierarchical Representation Model for Next Basket Recommendation ### Learning Hierarchical Representation Model for Next Basket Recommendation 
+An automatic translation of tags for multimedia contents using folksonomy networks ### An automatic translation of tags for multimedia contents using folksonomy networks 
+Reducing Hubness  A Cause of Vulnerability in Recommender Systems ### Reducing Hubness  A Cause of Vulnerability in Recommender Systems 
+Measuring Engagement with Online Forms ### Measuring Engagement with Online Forms 
+Author Interest Topic Model ### Author Interest Topic Model 
+EvaluatIR An Online Tool for Evaluating ### EvaluatIR An Online Tool for Evaluating 
+Playing Your Cards Right  The Effect of Entity Cards on Search Behaviour and Workload ### Playing Your Cards Right  The Effect of Entity Cards on Search Behaviour and Workload 
+Spoken Information Retrieval for Turkish Broadcast News ### Spoken Information Retrieval for Turkish Broadcast News 
+Has Portfolio Theory Got Any Principles ### Has Portfolio Theory Got Any Principles 
+Knowledge Graphs versus Hierarchies  An Analysis of User Behaviours and Perspectives in Information Seeking ### Knowledge Graphs versus Hierarchies  An Analysis of User Behaviours and Perspectives in Information Seeking 
+Multi-view clustering of multilingual documents ### Multi-view clustering of multilingual documents 
+WeChat Search & Headline  Sogou Joins Force with Tencent on Mobile Search ### WeChat Search & Headline  Sogou Joins Force with Tencent on Mobile Search 
+Visual Summarization of Web Pages ### Visual Summarization of Web Pages 
+Compression-based document length prior for language models ### Compression-based document length prior for language models 
+On the Relationship Between Effectiveness and Accessibility ### On the Relationship Between Effectiveness and Accessibility 
+An interdisciplinary perspective on information retrieval ### An interdisciplinary perspective on information retrieval 
+Evaluating effects of machine translation accuracy on cross-lingual patent retrieval ### Evaluating effects of machine translation accuracy on cross-lingual patent retrieval 
+Search and Browse Log Mining for Web Information Retrieval Challenges, Methods, and Applications ### Search and Browse Log Mining for Web Information Retrieval Challenges, Methods, and Applications 
+Is spam an issue for opinionated blog post search ### Is spam an issue for opinionated blog post search 
+Efficiency trade-offs in two-tier web search systems ### Efficiency trade-offs in two-tier web search systems 
+Effects of Position and Time Bias on Understanding Onsite Users' Behavior ### Effects of Position and Time Bias on Understanding Onsite Users' Behavior 
+Retrieval of Relevant Opinion Sentences for New Products ### Retrieval of Relevant Opinion Sentences for New Products 
+Robust music identification based on low-order zernike moment in the compressed domain ### Robust music identification based on low-order zernike moment in the compressed domain 
+A Time-aware Random Walk Model for Finding Important Documents in Web Archives ### A Time-aware Random Walk Model for Finding Important Documents in Web Archives 
+Vertical Selection in the Presence of Unlabeled Verticals ### Vertical Selection in the Presence of Unlabeled Verticals 
+Using Statistical Decision Theory and Relevance Models for Query-Performance Prediction ### Using Statistical Decision Theory and Relevance Models for Query-Performance Prediction 
+Serendipitous Search via WikipediaA Query Log Analysis ### Serendipitous Search via WikipediaA Query Log Analysis 
+Re-examination on lam% in spam filtering ### Re-examination on lam% in spam filtering 
+Entity Summarization of News Articles ### Entity Summarization of News Articles 
+Reverse Annotation Based Retrieval from Large Document Image Collections ### Reverse Annotation Based Retrieval from Large Document Image Collections 
+Anchoring and Adjustment in Relevance Estimation ### Anchoring and Adjustment in Relevance Estimation 
+Refined experts improving classification in large taxonomies ### Refined experts improving classification in large taxonomies 
+Leveraging popular destinations to enhance Web search interaction ### Leveraging popular destinations to enhance Web search interaction 
+Scientific Information Understanding via Open Educational Resources (OER) ### Scientific Information Understanding via Open Educational Resources (OER) 
+Image-based Recommendations on Styles and Substitutes ### Image-based Recommendations on Styles and Substitutes 
+Uncovering Social Spammers Social Honeypots plus Machine Learning ### Uncovering Social Spammers Social Honeypots plus Machine Learning 
+Mutilabel classification with meta-level features ### Mutilabel classification with meta-level features 
+Bayesian network models for hierarchical text classification from a thesaurus ### Bayesian network models for hierarchical text classification from a thesaurus 
+A risk minimization framework for information retrieval ### A risk minimization framework for information retrieval 
+BROOF Exploiting Out-of-Bag Errors, Boosting and Random Forests for Effective Automated Classification ### BROOF Exploiting Out-of-Bag Errors, Boosting and Random Forests for Effective Automated Classification 
+Characterizing Users' Multi-Tasking Behavior in Web Search ### Characterizing Users' Multi-Tasking Behavior in Web Search 
+A Comparison of Primary and Secondary Relevance Judgements for Real-Life Topics ### A Comparison of Primary and Secondary Relevance Judgements for Real-Life Topics 
+Learning Maximal Marginal Relevance Model via Directly Optimizing Diversity Evaluation Measures ### Learning Maximal Marginal Relevance Model via Directly Optimizing Diversity Evaluation Measures 
+Information Retrieval as Card Playing  A Formal Model for Optimizing Interactive Retrieval Interface ### Information Retrieval as Card Playing  A Formal Model for Optimizing Interactive Retrieval Interface 
+Context-Based Health Information Retrieval ### Context-Based Health Information Retrieval 
+A Priori Relevance Based On Quality and Diversity Of Social Signals ### A Priori Relevance Based On Quality and Diversity Of Social Signals 
+Topic structure for information retrieval ### Topic structure for information retrieval 
+Visualizing the problems with the INEX topics ### Visualizing the problems with the INEX topics 
+Relevance-aware Filtering of Tuples Sorted by an Attribute Value via Direct Optimization of Search Quality Metrics ### Relevance-aware Filtering of Tuples Sorted by an Attribute Value via Direct Optimization of Search Quality Metrics 
+On Term Selection Techniques for Patent Prior Art Search ### On Term Selection Techniques for Patent Prior Art Search 
+Developing a Measure of Search Expertise ### Developing a Measure of Search Expertise 
+Discovering Experts across Multiple Domains ### Discovering Experts across Multiple Domains 
+Exploring Opportunities to Facilitate Serendipity in Search ### Exploring Opportunities to Facilitate Serendipity in Search 
+Bayesian Ranker Comparison Based on Historical User Interactions ### Bayesian Ranker Comparison Based on Historical User Interactions 
+Multiple Approaches to Analysing Query Diversity  ### Multiple Approaches to Analysing Query Diversity  
+Focused Access to Sparsely and Densely Relevant Documents ### Focused Access to Sparsely and Densely Relevant Documents 
+Investigating the suboptimality and instability of pseudo-relevance feedback ### Investigating the suboptimality and instability of pseudo-relevance feedback 
+How does Interest in a Work Task Impact Search Behavior and Engagemen ### How does Interest in a Work Task Impact Search Behavior and Engagemen 
+A Two-Stage Model for Blog Feed Search ### A Two-Stage Model for Blog Feed Search 
+Incorporating post-click behaviors into a click model ### Incorporating post-click behaviors into a click model 
+Language-Model-based Pro Con Classification of Political Text ### Language-Model-based Pro Con Classification of Political Text 
+Blog distillation using random walks ### Blog distillation using random walks 
+Assessing the Scenic Route Measuring the Value of Search Trails in Web Logs ### Assessing the Scenic Route Measuring the Value of Search Trails in Web Logs 
+Location-Aware Model for News Events in Social Media ### Location-Aware Model for News Events in Social Media 
+Manipulating Time Perception of Web Search Users ### Manipulating Time Perception of Web Search Users 
+NeuroIR 2015 - Neuro-Physiological Methods in IR Research  ### NeuroIR 2015 - Neuro-Physiological Methods in IR Research  
+Tag-based object similarity computation using term space dimension reduction ### Tag-based object similarity computation using term space dimension reduction 
+Detecting spammers and content promoters in online video social networks ### Detecting spammers and content promoters in online video social networks 
+Incentives for Social Annotation ### Incentives for Social Annotation 
+Dependency structure applied to language modeling for information retrieval ### Dependency structure applied to language modeling for information retrieval 
+Learning to Rank Short Text Pairs with Convolutional Deep Neural Networks ### Learning to Rank Short Text Pairs with Convolutional Deep Neural Networks 
+High Quality Graph-Based Similarity Search ### High Quality Graph-Based Similarity Search 
+Semi-supervised spam filtering using aggressive consistency learning ### Semi-supervised spam filtering using aggressive consistency learning 
+Graphical Models for Text A New Paradigm for Text Representation and Processing ### Graphical Models for Text A New Paradigm for Text Representation and Processing 
+Factor Analysis of a Search Self-Efficacy Scale ### Factor Analysis of a Search Self-Efficacy Scale 
+Ontology-enriched Multi-Document Summarization in Disaster Management ### Ontology-enriched Multi-Document Summarization in Disaster Management 
+Web-derived resources for web information retrieval from conceptual hierarchies to attribute hierarchies ### Web-derived resources for web information retrieval from conceptual hierarchies to attribute hierarchies 
+Cognitive Activity during Web Search ### Cognitive Activity during Web Search 
+Learning Context-aware Latent Representations for Context-aware Collaborative Filtering ### Learning Context-aware Latent Representations for Context-aware Collaborative Filtering 
+Multiview clustering a late fusion approach using latent models ### Multiview clustering a late fusion approach using latent models 
+Interactive retrieval based on faceted feedback ### Interactive retrieval based on faceted feedback 
+Predicting User Interests from Contextual Information  ### Predicting User Interests from Contextual Information  
+K-tree Large Scale Document Clustering ### K-tree Large Scale Document Clustering 
+Using Key Concepts in a Translation Model for Retrieval ### Using Key Concepts in a Translation Model for Retrieval 
+When Personalization Meets Conformity Collective Similarity based Multi-Domain Recommendation ### When Personalization Meets Conformity Collective Similarity based Multi-Domain Recommendation 
+Cross-Platform Question Routing for Better Question Answering ### Cross-Platform Question Routing for Better Question Answering 
+Query Log Analysis in the Context of Information Retrieval for Children ### Query Log Analysis in the Context of Information Retrieval for Children 
+DUMPLING  A Novel Dynamic Search Engine ### DUMPLING  A Novel Dynamic Search Engine 
+Equivalence between nonnegative tensor factorization and tensorial probabilistic latent semantic analysis ### Equivalence between nonnegative tensor factorization and tensorial probabilistic latent semantic analysis 
+User interface designs to support the social transfer of web search expertise ### User interface designs to support the social transfer of web search expertise 
+Context-Aware Ranking in Web Search ### Context-Aware Ranking in Web Search 
+On the Local Optimality of LambdaRank ### On the Local Optimality of LambdaRank 
+Predicting Escalations of Medical Queries Based on Web Page Structure and Content ### Predicting Escalations of Medical Queries Based on Web Page Structure and Content 
+When is Query Performance Prediction Effective ### When is Query Performance Prediction Effective 
+The Role of Language Skills in Interactive Social Book Search Sessions ### The Role of Language Skills in Interactive Social Book Search Sessions 
+Context aware query classification using dynamic query window and relationship net ### Context aware query classification using dynamic query window and relationship net 
+Finding and Filtering Information for Children ### Finding and Filtering Information for Children 
+Diversification of Search Results using Webgraphs ### Diversification of Search Results using Webgraphs 
+Modeling search response time ### Modeling search response time 
+Evaluating and Predicting Answer Quality in Community QA ### Evaluating and Predicting Answer Quality in Community QA 
+Query Quality User Ratings and System Predictions ### Query Quality User Ratings and System Predictions 
+A stack decoder approach to approximate string matching ### A stack decoder approach to approximate string matching 
+Bringing Order to the Job Market  Efficient Job Offer Categorization in E-Recruitment ### Bringing Order to the Job Market  Efficient Job Offer Categorization in E-Recruitment 
+Accommodating colorblind users in image search ### Accommodating colorblind users in image search 
+Galean Visualization of Geolocated News Events from Social Media ### Galean Visualization of Geolocated News Events from Social Media 
+Social Networks and Discovery in the Enterprise (SaND) ### Social Networks and Discovery in the Enterprise (SaND) 
+Link Analysis for Private Weighted Graphs ### Link Analysis for Private Weighted Graphs 
+Personalizing information retrieval for multi-session tasks  the roles of task stage and task type ### Personalizing information retrieval for multi-session tasks  the roles of task stage and task type 
+Ready to buy or just browsing detecting web searcher goals from interaction data ### Ready to buy or just browsing detecting web searcher goals from interaction data 
+Revisiting logical imaging for information retrieval ### Revisiting logical imaging for information retrieval 
+Improving User Confidence in Cultural Heritage aggragated results ### Improving User Confidence in Cultural Heritage aggragated results 
+An Eye-Tracking Study of Query Reformulation ### An Eye-Tracking Study of Query Reformulation 
+Web Page Publication Time Detection and its Application for Page Rank ### Web Page Publication Time Detection and its Application for Page Rank 
+A search engine in a few lines yes, we can ### A search engine in a few lines yes, we can 
+Graph Search and Beyond SIGIR 2015 Workshop Summary ### Graph Search and Beyond SIGIR 2015 Workshop Summary 
+The Impact of Collection Size on Relevance and Diversity ### The Impact of Collection Size on Relevance and Diversity 
+Extracting structured information from user queries with semi-supervised conditional random fields ### Extracting structured information from user queries with semi-supervised conditional random fields 
+VenueMusic A Venue-Aware Music Recommender System ### VenueMusic A Venue-Aware Music Recommender System 
+Spatial Relationships in Visual Graph Modeling for Image Categorization ### Spatial Relationships in Visual Graph Modeling for Image Categorization 
+Addressing morphological variation in alphabetic languages ### Addressing morphological variation in alphabetic languages 
+Different Users, Different Opinions Predicting Search Satisfaction with Mouse Movement Information ### Different Users, Different Opinions Predicting Search Satisfaction with Mouse Movement Information 
+Topic prerogative feature selection using multiple query examples for automatic video retrieval ### Topic prerogative feature selection using multiple query examples for automatic video retrieval 
+Incorporating prior knowledge into a transductive ranking algorithm for multi-document summarization ### Incorporating prior knowledge into a transductive ranking algorithm for multi-document summarization 
+Language independent unsupervised learning of short message ### Language independent unsupervised learning of short message 
+Multi-source Information Fusion for Personalized Restaurant Recommendation ### Multi-source Information Fusion for Personalized Restaurant Recommendation 
+Exploiting Temporal Information in Retrieval of Archived Documents ### Exploiting Temporal Information in Retrieval of Archived Documents 
+The value of visual elements in web search ### The value of visual elements in web search 
+A graph-based approach to mining multilingual word associations from wikipedia ### A graph-based approach to mining multilingual word associations from wikipedia 
+Human Performance and Retrieval Precision Revisited ### Human Performance and Retrieval Precision Revisited 
+Early Detection of Topical Expertise in Community Question Answering ### Early Detection of Topical Expertise in Community Question Answering 
+Using Contextual Information to Understand Searching and Browsing Behavior ### Using Contextual Information to Understand Searching and Browsing Behavior 
+What Affects Word Changes in Query Reformulation During a Task-based Search Session ### What Affects Word Changes in Query Reformulation During a Task-based Search Session 
+History by Diversity Helping Historians search News Archives ### History by Diversity Helping Historians search News Archives 
+Compact Snippet Caching for Flash-based Search Engines ### Compact Snippet Caching for Flash-based Search Engines 
+Individual Differences and Online Health Information Source Selection ### Individual Differences and Online Health Information Source Selection 
+Integrating clusters created offline with query-specific clusters for document retrieval ### Integrating clusters created offline with query-specific clusters for document retrieval 
+Features of Disagreement Between Retrieval Effectiveness Measures ### Features of Disagreement Between Retrieval Effectiveness Measures 
+Cost-Aware Result Caching for Meta-Search Engines ### Cost-Aware Result Caching for Meta-Search Engines 
+Using wikipedia categories for ad hoc search ### Using wikipedia categories for ad hoc search 
+An improved markov random field model for supporting verbose queries ### An improved markov random field model for supporting verbose queries 
+Assessor Differences and User Preferences in Tweet Timeline Generation ### Assessor Differences and User Preferences in Tweet Timeline Generation 
+Novelty detection across different source types and languages ### Novelty detection across different source types and languages 
+A Random Walk Model for Optimization of Search Impact in Web Frontier Ranking ### A Random Walk Model for Optimization of Search Impact in Web Frontier Ranking 
+Behaviour Mining for Automatic Task-Keeping and Visualisations for Task-Refinding ### Behaviour Mining for Automatic Task-Keeping and Visualisations for Task-Refinding 
+Feature selection for automatic taxonomy induction ### Feature selection for automatic taxonomy induction 
+Controversy Detection and Stance Analysis ### Controversy Detection and Stance Analysis 
+Nonlinear Composite Search Results ### Nonlinear Composite Search Results 
+Dynamicity vs effectiveness studying online clustering for scatter gather ### Dynamicity vs effectiveness studying online clustering for scatter gather 
+A 2-poisson model for probabilistic coreference of named entities for improved text retrieval ### A 2-poisson model for probabilistic coreference of named entities for improved text retrieval 
+Counting ancestors to estimate authority ### Counting ancestors to estimate authority 
+Learning to Rank for Information Retrieval ### Learning to Rank for Information Retrieval 
+Possibilistic networks for information retrieval ### Possibilistic networks for information retrieval 
+Gibberish, Assistant, or Master  Using Tweets Linking to News for Extractive Single-Document Summarization ### Gibberish, Assistant, or Master  Using Tweets Linking to News for Extractive Single-Document Summarization 
+Music Retrieval and Recommendation ### Music Retrieval and Recommendation 
+Leveraging User-Generated Content for News Search ### Leveraging User-Generated Content for News Search 
+Generalized Group Profiling for Content Customization ### Generalized Group Profiling for Content Customization 
+Probabilistic Latent Maximal Marginal Relevance ### Probabilistic Latent Maximal Marginal Relevance 
+Fielded Sequential Dependence Model for Ad-Hoc Entity Retrieval in the Web of Data ### Fielded Sequential Dependence Model for Ad-Hoc Entity Retrieval in the Web of Data 
+Finding support sentences for entities ### Finding support sentences for entities 
+Acquisition of instance attributes via labeled and related instances ### Acquisition of instance attributes via labeled and related instances 
+Many are Better Than One Improving Multi-Document Summarization via Weighted Consensus ### Many are Better Than One Improving Multi-Document Summarization via Weighted Consensus 
+Exploiting Wikipedia for Information Retrieval Tasks ### Exploiting Wikipedia for Information Retrieval Tasks 
+Multiple Social Network Learning and Its Application in Volunteerism Tendency Prediction ### Multiple Social Network Learning and Its Application in Volunteerism Tendency Prediction 
+A Ranking Approach to Keyphrase Extraction ### A Ranking Approach to Keyphrase Extraction 
+Transitive history-based query disambiguation for query reformulation ### Transitive history-based query disambiguation for query reformulation 
+Efficient and Scalable MetaFeature-based Document Classification using Massively Parallel Computing ### Efficient and Scalable MetaFeature-based Document Classification using Massively Parallel Computing 
+Investigating the Role of User Engagement in Digital Reading Environments ### Investigating the Role of User Engagement in Digital Reading Environments 
+Exploring the Role of Culture in Online Searching Behavior from Cultural Cognition Perspective.  ### Exploring the Role of Culture in Online Searching Behavior from Cultural Cognition Perspective 
+Estimation of statistical translation models based on mutual information for ad hoc information retrieval ### Estimation of statistical translation models based on mutual information for ad hoc information retrieval 
+A Study of Inter-Annotator Agreement for Opinion Retrieval ### A Study of Inter-Annotator Agreement for Opinion Retrieval 
+On the Cost of Phrase-Based Ranking ### On the Cost of Phrase-Based Ranking 
+Online News Tracking for Ad-Hoc Queries ### Online News Tracking for Ad-Hoc Queries 
+Effective Latent Models for Binary Feedback in Recommender Systems ### Effective Latent Models for Binary Feedback in Recommender Systems 
+Estimating Advertisability of Tail Queries for Sponsored Search ### Estimating Advertisability of Tail Queries for Sponsored Search 
+Exploiting Social Context for Expertise Propagation ### Exploiting Social Context for Expertise Propagation 
+Multimedia information retrieval ### Multimedia information retrieval 
+The Forgotten Needle in My Collections Task-Aware Ranking of Documents in Semantic Information Space ### The Forgotten Needle in My Collections Task-Aware Ranking of Documents in Semantic Information Space 
+Leveraging Procedural Knowledge for Task-oriented Search ### Leveraging Procedural Knowledge for Task-oriented Search 
+Experiments in CLIR Using Fuzzy String Search Based on Surface Similarity ### Experiments in CLIR Using Fuzzy String Search Based on Surface Similarity 
+Measuring Constraint Violations in Information Retrieval ### Measuring Constraint Violations in Information Retrieval 
+Effective query expansion for federated search ### Effective query expansion for federated search 
+I See You Person-of-Interest Search in Social Networks ### I See You Person-of-Interest Search in Social Networks 
+Optimised Scheduling of Online Experiments ### Optimised Scheduling of Online Experiments 
+Aiming for User Experience in Information Retrieval Towards User-Centered Relevance (UCR) ### Aiming for User Experience in Information Retrieval Towards User-Centered Relevance (UCR) 
+Representative & Informative Query Selection for Learning to Rank using Submodular Functions ### Representative & Informative Query Selection for Learning to Rank using Submodular Functions 
+Location in Search ### Location in Search 
+Where to stop reading a ranked list  threshold optimization using truncated score distributions ### Where to stop reading a ranked list  threshold optimization using truncated score distributions 
+Sifting Micro-blogging Stream for Events of User Interest ### Sifting Micro-blogging Stream for Events of User Interest 
+A probabilistic topic-based ranking framework for location-sensitive domain information retrieval ### A probabilistic topic-based ranking framework for location-sensitive domain information retrieval 
+Salton Award Lecture People, Interacting with Information ### Salton Award Lecture People, Interacting with Information 
+Large-scale Image Retrieval using Neural Net Descriptors ### Large-scale Image Retrieval using Neural Net Descriptors 
+Contextual video advertising system using scene information on inferred feom video scripts ### Contextual video advertising system using scene information on inferred feom video scripts 
+Developing energy efficient filtering systems ### Developing energy efficient filtering systems 
+A co-learning framework for learning user search intents from rule-generated training data ### A co-learning framework for learning user search intents from rule-generated training data 
+Term-Based Commercial Intent Analysis ### Term-Based Commercial Intent Analysis 
+SEADE Workshop Proposal The Serendipity Factor  Evaluating the Affordances  of Digital Environments ### SEADE Workshop Proposal The Serendipity Factor  Evaluating the Affordances  of Digital Environments 
+Hierarchical Pitman-Yor Language Model for Information Retrieval ### Hierarchical Pitman-Yor Language Model for Information Retrieval 
+Are Secondary Assessors Uncertain When They Disagree About Relevance Judgement ### Are Secondary Assessors Uncertain When They Disagree About Relevance Judgement 
+Document selection methodologies for efficient and effective learning-to-rank ### Document selection methodologies for efficient and effective learning-to-rank 
+Differences in Eye-tracking Measures Between Visits and Revisits to Relevant and Irrelevant Web Pages  ### Differences in Eye-tracking Measures Between Visits and Revisits to Relevant and Irrelevant Web Pages  
+Probabilistic Multileave for Online Retrieval Evaluation ### Probabilistic Multileave for Online Retrieval Evaluation 
+A proximity language model for information retrieval ### A proximity language model for information retrieval 
+Multi-Modal Query Expansion for Web Video Search ### Multi-Modal Query Expansion for Web Video Search 
+HCC A Hierarchical Co-Clustering Algorithm ### HCC A Hierarchical Co-Clustering Algorithm 
+A robust retrieval system of polyphonic music based on chord progression similarity ### A robust retrieval system of polyphonic music based on chord progression similarity 
+Searching Documentation using Text, OCR, and Image ### Searching Documentation using Text, OCR, and Image 
+Segmentation of multi-sentence questions towards effective question retrieval in cQA services ### Segmentation of multi-sentence questions towards effective question retrieval in cQA services 
+Optimizing search engine revenue in sponsored search ### Optimizing search engine revenue in sponsored search 
+Temporal Query Substitution for Ad Search  ### Temporal Query Substitution for Ad Search  
+Automatic Content Linking Speech-based Just-in-time Retrieval for Multimedia Archives ### Automatic Content Linking Speech-based Just-in-time Retrieval for Multimedia Archives 
+NeuroIR 2015 Neuro-Physiological Methods in IR Research  ### NeuroIR 2015 - Neuro-Physiological Methods in IR Research  
+Suggesting Related Topics in Web Search ### Suggesting Related Topics in Web Search 
+A Usefulness-based Approach for Measuring the Local and Global Effect of IIR Services ### A Usefulness-based Approach for Measuring the Local and Global Effect of IIR Services 
+Lower Search Cost  ### Lower Search Cost  
+Towards Subjectifying Text Clustering ### Towards Subjectifying Text Clustering 
+Learning to rank audience for behavioral targeting ### Learning to rank audience for behavioral targeting 
+EUSUM Extracting Easy-to-Understand English Summaries for Non-Native Readers ### EUSUM Extracting Easy-to-Understand English Summaries for Non-Native Readers 
+Improving Query Reformulation in Voice Search System  ### Improving Query Reformulation in Voice Search System  
+Measuring the descriptiveness of web comments ### Measuring the descriptiveness of web comments 
+The Information Network Exploiting Causal Dependencies in Online Information Seeking ### The Information Network Exploiting Causal Dependencies in Online Information Seeking 
+(The Lack of) Privacy Concerns with Sharing Web Activity at Work and the Implications for Collaborative Search ### (The Lack of) Privacy Concerns with Sharing Web Activity at Work and the Implications for Collaborative Search 
+person name disambiguation by bootstrapping ### person name disambiguation by bootstrapping 
+High precision opinion retrieval using sentiment-relevance flows ### High precision opinion retrieval using sentiment-relevance flows 
+StarSum  A Simple Star Graph for Multi-document Summarization ### StarSum  A Simple Star Graph for Multi-document Summarization 
+Towards Quantifying the Impact of Non-Uniform  Information Access in Collaborative Information Retrieval  ### Towards Quantifying the Impact of Non-Uniform  Information Access in Collaborative Information Retrieval  
+An aspectual interface for supporting complex search tasks ### An aspectual interface for supporting complex search tasks 
+Click-through prediction for news queries ### Click-through prediction for news queries 
+Document Comprehensiveness and User Preferences in Novelty Search Tasks ### Document Comprehensiveness and User Preferences in Novelty Search Tasks 
+Improving search relevance for implicitly temporal queries ### Improving search relevance for implicitly temporal queries 
+Tagging products using image classification ### Tagging products using image classification 
+Tailoring Music Recommendations to Users by Considering Diversity, Mainstreaminess, and Novelty ### Tailoring Music Recommendations to Users by Considering Diversity, Mainstreaminess, and Novelty 
+Influence of Vertical Result in Web Search Examination ### Influence of Vertical Result in Web Search Examination 
+The good, the bad, and the random an eye-tracking study of ad quality in web search ### The good, the bad, and the random an eye-tracking study of ad quality in web search 
+The Role of the Unconscious in Information Retrieval What User Perception Tells Us ### The Role of the Unconscious in Information Retrieval What User Perception Tells Us 
+A Probabilistic Model for Information Retrieval Based on Maximum Value Distribution ### A Probabilistic Model for Information Retrieval Based on Maximum Value Distribution 
+SIGIR Scholar vs. Scholars' Interpretation ### SIGIR Scholar vs Scholars' Interpretation 
+Information retrieval challenges in computational advertising ### Information retrieval challenges in computational advertising 
+Finding People and their Utterances in Social Media ### Finding People and their Utterances in Social Media 
+Twitter Sentiment Analysis with Deep Convolutional Neural Networks ### Twitter Sentiment Analysis with Deep Convolutional Neural Networks 
+Temporal click model for sponsored search ### Temporal click model for sponsored search 
+Mining Adjacent Markets from a Large-scale Ads Video Collection for Image Advertising ### Mining Adjacent Markets from a Large-scale Ads Video Collection for Image Advertising 
+Entropy Descriptor for Image Classification ### Entropy Descriptor for Image Classification 
+Annotation of URLs More than the Sum of Parts ### Annotation of URLs More than the Sum of Parts 
+Exploring Desktop Resources Based on User Activity Analysis ### Exploring Desktop Resources Based on User Activity Analysis 
+Hashtag Retrieval in a Microblogging Environment ### Hashtag Retrieval in a Microblogging Environment 
+Knowledge Graphs versus Hierarchies An Analysis of User Behaviours and Perspectives in Information Seeking ### Knowledge Graphs versus Hierarchies An Analysis of User Behaviours and Perspectives in Information Seeking 
+The Power of Naive Query Segmentation ### The Power of Naive Query Segmentation 
+Joint Matrix Factorization and Manifold-Ranking for Topic-Focused Multi-Document Summarization ### Joint Matrix Factorization and Manifold-Ranking for Topic-Focused Multi-Document Summarization 
+SED supervised experimental design and its application to text classification ### SED supervised experimental design and its application to text classification 
+Web Retrieval The Role of Users ### Web Retrieval The Role of Users 
+Using Flickr Geotags to Predict User Travel Behaviour ### Using Flickr Geotags to Predict User Travel Behaviour 
+Search System Requirements of Patent Analysts ### Search System Requirements of Patent Analysts 
+On the Relation Between Assessor's Agreement and Accuracy in Gamified Relevance Assessment ### On the Relation Between Assessor's Agreement and Accuracy in Gamified Relevance Assessment 
+On perfect document rankings for expert search ### On perfect document rankings for expert search 
+Impact of Surrogate Assessments on High-Recall Retrieval ### Impact of Surrogate Assessments on High-Recall Retrieval 
+Knowledge transformation for cross-domain sentiment classification ### Knowledge transformation for cross-domain sentiment classification 
+Score adjustment for correction of pooling bias ### Score adjustment for correction of pooling bias 
+Placing flickr photos on a map ### Placing flickr photos on a map 
+Medical search and classification tools for recommendation ### Medical search and classification tools for recommendation 
+Capturing Page Freshness for Web Search ### Capturing Page Freshness for Web Search 
+Linse A Distributional Semantics Entity Search Engine ### Linse A Distributional Semantics Entity Search Engine 
+Sign-Aware Periodicity Metrics of User Engagement for Online Search Quality Evaluation ### Sign-Aware Periodicity Metrics of User Engagement for Online Search Quality Evaluation 
+Improving Search using Proximity-Based Statistics ### Improving Search using Proximity-Based Statistics 
+Interactive Topic Modeling for aiding Qualitative Content Analysis ### Interactive Topic Modeling for aiding Qualitative Content Analysis 
+Promoting User Engagement and Learning in Amorphous Search Tasks ### Promoting User Engagement and Learning in Amorphous Search Tasks 
+Is this urgent exploring time-sensitive information needs in collaborative question answering ### Is this urgent exploring time-sensitive information needs in collaborative question answering 
+Score distribution models assumptions, intuition, and robustness to score manipulation ### Score distribution models assumptions, intuition, and robustness to score manipulation 
+An evaluation of entity and frequency based query completion methods ### An evaluation of entity and frequency based query completion methods 
+Spoken Conversational Search  Speech-only Interactive Information Retrieva ### Spoken Conversational Search  Speech-only Interactive Information Retrieva 
+A comparison of query and term suggestion features for interactive searching ### A comparison of query and term suggestion features for interactive searching 
+How Writers Search ### How Writers Search 
+A Picture is Worth a Thousand Search ResultsFinding Child-Oriented Multimedia Results with collAge ### A Picture is Worth a Thousand Search ResultsFinding Child-Oriented Multimedia Results with collAge 
+An Aspect-driven Social Media Explorer ### An Aspect-driven Social Media Explorer 
+Learning to efficiently rank ### Learning to efficiently rank 
+A classification-based approach to question answering in discussion boards ### A classification-based approach to question answering in discussion boards 
+User Comments for News Recommendation in Social Media ### User Comments for News Recommendation in Social Media 
+Mining, Ranking and Recommending Entity Aspects ### Mining, Ranking and Recommending Entity Aspects 
+Mining product reviews based on shallow dependency parsing ### Mining product reviews based on shallow dependency parsing 
+Zero-shot Image Tagging by Hierarchical Semantic Embedding ### Zero-shot Image Tagging by Hierarchical Semantic Embedding 
+The Effect of Assessor Errors on IR System Evaluation ### The Effect of Assessor Errors on IR System Evaluation 
+Transforming Patents into Prior-Art Queries ### Transforming Patents into Prior-Art Queries 
+Methods for extracting place semantics from Flickr tags ### Methods for extracting place semantics from Flickr tags 
+Inferring Searcher Attention by Jointly Modeling User Interactions and Content Salience ### Inferring Searcher Attention by Jointly Modeling User Interactions and Content Salience 
+Generic similarity search engine demonstrated by an image retrieval application ### Generic similarity search engine demonstrated by an image retrieval application 
+Modeling facial expressions and peripheral physiological signals to predict topical relevance ### Modeling facial expressions and peripheral physiological signals to predict topical relevance 
+Relevance and ranking in online dating systems ### Relevance and ranking in online dating systems 
+Identifying the original contribution of a document via language modeling ### Identifying the original contribution of a document via language modeling 
+Web Searching for Daily Living ### Web Searching for Daily Living 
+Extending Average Precision to Graded Relevance Judgments ### Extending Average Precision to Graded Relevance Judgments 
+Understanding Users' Language Selection  Code-switching in Online Searches ### Understanding Users' Language Selection  Code-switching in Online Searches 
+Robust Audio Identification for MP3 Popular Music ### Robust Audio Identification for MP3 Popular Music 
+Untangling Result List Refinement and Ranking Quality  a Framework for Evaluation and Prediction ### Untangling Result List Refinement and Ranking Quality  a Framework for Evaluation and Prediction 
+Query Recovery of Short User QueriesOn Query Expansion with Stopwords ### Query Recovery of Short User QueriesOn Query Expansion with Stopwords 
+Positional Relevance Model for Pseudo-Relevance Feedback ### Positional Relevance Model for Pseudo-Relevance Feedback 
+Parametric and Non-parametric User-aware Sentiment Topic Models ### Parametric and Non-parametric User-aware Sentiment Topic Models 
+Three Web-based Heuristics to Determine a Person's or Institution's Country of Origin ### Three Web-based Heuristics to Determine a Person's or Institution's Country of Origin 
+Retrieval System Evaluation Automatic Evaluation versus Incomplete Judgments ### Retrieval System Evaluation Automatic Evaluation versus Incomplete Judgments 
+Exploring Reductions for Long Web QueriesReusable Test Collections Through Experimental Design ### Exploring Reductions for Long Web QueriesReusable Test Collections Through Experimental Design 
+Characterizing the Subjectivity of Topics ### Characterizing the Subjectivity of Topics 
+Estimating Interference in the QPRP for Subtopic Retrieval ### Estimating Interference in the QPRP for Subtopic Retrieval 
+Personalized tag recommendation using graph-based ranking on multi-type interrelated objects ### Personalized tag recommendation using graph-based ranking on multi-type interrelated objects 
+Multi-FieldLearningforEmailSpamFiltering ### Multi-FieldLearningforEmailSpamFiltering 
+Interactive Information Retrieval  An Evaluation Perspective ### Interactive Information Retrieval  An Evaluation Perspective 
+Feature Subset Non-Negative Matrix Factorization and its Applications to Document Understanding ### Feature Subset Non-Negative Matrix Factorization and its Applications to Document Understanding 
+The ESA retrieval model revisited ### The ESA retrieval model revisited 
+A unified inverted index for an efficient image and text retrieval ### A unified inverted index for an efficient image and text retrieval 
+VisualSum An Interactive Multi-Document Summarization System Using Visualization ### VisualSum An Interactive Multi-Document Summarization System Using Visualization 
+Good Abandonment in Mobile and PC Internet Search ### Good Abandonment in Mobile and PC Internet Search 
+Segment-level display time as implicit feedback a comparison to eye tracking ### Segment-level display time as implicit feedback a comparison to eye tracking 
+Supervised Query Modeling Using Wikipedia ### Supervised Query Modeling Using Wikipedia 
+Predicting query potential for personalization, classification or regression ### Predicting query potential for personalization, classification or regression 
+Optimal meta search results clustering ### Optimal meta search results clustering 
+Visual Concept-based Selection of Query Expansions for Spoken Content Retrieval ### Visual Concept-based Selection of Query Expansions for Spoken Content Retrieval 
+Query dependent pseudo-relevance feedback based on wikipedia ### Query dependent pseudo-relevance feedback based on wikipedia 
+Where to Go on Your Next Trip  Optimizing Travel Destinations Based on User Preferences ### Where to Go on Your Next Trip  Optimizing Travel Destinations Based on User Preferences 
+Exploring the Use of Labels to Shortcut Search Trails ### Exploring the Use of Labels to Shortcut Search Trails 
+Short Text Classification in Twitter to Improve Information Filtering ### Short Text Classification in Twitter to Improve Information Filtering 
+Understanding Temporal Query Intent ### Understanding Temporal Query Intent 
+Extraction of Open-Domain Class Attributes from Text Building Blocks for Faceted Search ### Extraction of Open-Domain Class Attributes from Text Building Blocks for Faceted Search 
+Properties of Optimally Weighted Data Fusion in CBMIR ### Properties of Optimally Weighted Data Fusion in CBMIR 
+Local Ranking Problem on the BrowseGraph ### Local Ranking Problem on the BrowseGraph 
+A relevance model based filter for improving ad quality ### A relevance model based filter for improving ad quality 
+On efficient posting list intersection with multicore processors ### On efficient posting list intersection with multicore processors 
+Search Engine Predilection towards News Media Providers ### Search Engine Predilection towards News Media Providers 
+Studying Trailfinding Algorithms for Enhanced Web Search ### Studying Trailfinding Algorithms for Enhanced Web Search 
+Refactoring the search problem ### Refactoring the search problem 
+Modeling Multi-query Retrieval Tasks Using Density Matrix Transformation ### Modeling Multi-query Retrieval Tasks Using Density Matrix Transformation 
+Spoken Conversational Search Information Retrieval over a Speech-only Communication Channel ### Spoken Conversational Search Information Retrieval over a Speech-only Communication Channel 
+Modelling Term Dependence with Copulas ### Modelling Term Dependence with Copulas 
+MEMOSE - Search Engine for Emotions in Multimedia Documents ### MEMOSE - Search Engine for Emotions in Multimedia Documents 
+Combining LVCSR and vocabulary-independent ranked utterance retrieval for robust speech search ### Combining LVCSR and vocabulary-independent ranked utterance retrieval for robust speech search 
+Evaluating Whole-Page Relevance ### Evaluating Whole-Page Relevance 
+Investigating Information Search Behavior using Personal and Social Contextual Signals ### Investigating Information Search Behavior using Personal and Social Contextual Signals 
+On the Reusability of Open Test Collections ### On the Reusability of Open Test Collections 
+Using anchor texts with their hyperlink structure for web search ### Using anchor texts with their hyperlink structure for web search 
+From Web Search Relevance to Vertical Search Relevance ### From Web Search Relevance to Vertical Search Relevance 
+Si-Fi Interactive Similar Item Finder ### Si-Fi Interactive Similar Item Finder 
+Selecting hierarchical clustering cut points for web person-name disambiguation ### Selecting hierarchical clustering cut points for web person-name disambiguation 
+User Variability and IR System Evaluation ### User Variability and IR System Evaluation 
+Predicting Search Intent Based on Pre-Search Context ### Predicting Search Intent Based on Pre-Search Context 
+Predicting Query Performance on the Web ### Predicting Query Performance on the Web 
+Scalability of findability effective and efficient IR operations in large information networks ### Scalability of findability effective and efficient IR operations in large information networks 
+Comparing Approaches for Query Autocompletion ### Comparing Approaches for Query Autocompletion 
+User-Centric Multi-Criteria Information Retrieval ### User-Centric Multi-Criteria Information Retrieval 
+Risky business modeling and exploiting uncertainty in information retrieval ### Risky business modeling and exploiting uncertainty in information retrieval 
+On the Mono- and Cross-Language Detection of Text Reuse and Plagiarism ### On the Mono- and Cross-Language Detection of Text Reuse and Plagiarism 
+Including Summaries in System Evaluation ### Including Summaries in System Evaluation 
+Mining the blogosphere for top news stories identification ### Mining the blogosphere for top news stories identification 
+Topic-centric Classification of Twitter User's Political Orientation ### Topic-centric Classification of Twitter User's Political Orientation 
+Optical character recognition errors and their effects on natural language processing ### Optical character recognition errors and their effects on natural language processing 
+On the Existence of Obstinate Results in Vector Space Models ### On the Existence of Obstinate Results in Vector Space Models 
+On single-pass indexing with MapReduce ### On single-pass indexing with MapReduce 
+Mining Measured Information from Text ### Mining Measured Information from Text 
+If SIGIR had an Academic Track, What Would Be In It ### If SIGIR had an Academic Track, What Would Be In It 
+IR Evaluation  Modeling User Behavior for Measuring Effectiveness ### IR Evaluation  Modeling User Behavior for Measuring Effectiveness 
+Metrics for assessing sets of subtopics ### Metrics for assessing sets of subtopics 
+Estimating the query difficulty for information retrieval ### Estimating the query difficulty for information retrieval 
+Listwise Collaborative Filtering ### Listwise Collaborative Filtering 
+Inferring User Intent in Web Search by Exploiting Social Annotations ### Inferring User Intent in Web Search by Exploiting Social Annotations 
+Temporal collaborative filtering with adaptive neighbourhoods ### Temporal collaborative filtering with adaptive neighbourhoods 
+A Survival Modeling Approach to Biomedical Search Result Diversification ### A Survival Modeling Approach to Biomedical Search Result Diversification 
+Smoothing clickthrough data for web search ranking ### Smoothing clickthrough data for web search ranking 
+The importance of anchor text for ad hoc search revisited ### The importance of anchor text for ad hoc search revisited 
+Adaptive User Engagement Evaluation via Multi-task Learning ### Adaptive User Engagement Evaluation via Multi-task Learning 
+wikiSearch Enabling Interactivity in Search  ### wikiSearch Enabling Interactivity in Search  
+A bayesian learning approach to promoting diversity in ranking for biomedical information retrieval ### A bayesian learning approach to promoting diversity in ranking for biomedical information retrieval 
+diversification for keyword search over structured databases ### diversification for keyword search over structured databases 
+Usability Evaluation of Electronic Health Record System (EHRs) using Subjective and Objective Measures ### Usability Evaluation of Electronic Health Record System (EHRs) using Subjective and Objective Measures 
+A relevance-based topic model for news event tracking ### A relevance-based topic model for news event tracking 
