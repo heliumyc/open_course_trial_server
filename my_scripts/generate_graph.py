@@ -7,8 +7,11 @@ import pymongo
 
 PATTERN = re.compile(r'ID:(\d+)\|\|extent=\[(.*)\]\|\|intent=\[(.*)\]\|\|fah=\[(.*)\]\|\|chd=\[(.*)\]')
 MONGO_URI = '127.0.0.1:27017'
-MONGO_DATABASE = 'open_course'
-CLIENT = pymongo.MongoClient(MONGO_URI)
+MONGO_DATABASE = 'open_course_test'
+CLIENT = pymongo.MongoClient(MONGO_URI,  
+            username='helium',
+            password='42',
+            authSource=MONGO_DATABASE)
 DB = CLIENT[MONGO_DATABASE]
 
 def sort_children(node_list):

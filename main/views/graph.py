@@ -4,7 +4,7 @@ File Created: 2018-10-03
 Author: Helium (ericyc4@gmail.com)
 Description: graph api
 ------
-Last Modified: 2018-11-26
+Last Modified: 2018-12-06
 Modified By: Helium (ericyc4@gmail.com)
 '''
 
@@ -52,7 +52,9 @@ def get_graph():
         # add data in g
         g = add_info(g, KEYWORDS_DICT)
         if len(g) == 1:
-            response = Response.get_custom_response(ResponseType.FAILURE, 'No Such sub graph')
+            # response = Response.get_custom_response(ResponseType.FAILURE, 'No Such sub graph')
+            response = Response(ResponseType.SUCCESS)
+            response.update_attr('graph', g)
         else:
             response = Response(ResponseType.SUCCESS)
             response.update_attr('graph', g)
@@ -60,3 +62,11 @@ def get_graph():
         print(e)
         response = Response(ResponseType.INTERNAL_ERR)
     return response.get_json()
+
+
+# @app.route('/api/init_graph', methods=['GET'], strict_slashes=False)
+# def get_init_graph():
+#     '''
+#     get init graph, a root node and selected second layer node
+#     '''
+# DEPRECATED
