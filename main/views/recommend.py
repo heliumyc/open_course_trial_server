@@ -4,7 +4,7 @@ File Created: 2018-10-03
 Author: Helium (ericyc4@gmail.com)
 Description: 推荐模块
 ------
-Last Modified: 2018-12-04
+Last Modified: 2018-12-11
 Modified By: Helium (ericyc4@gmail.com)
 '''
 
@@ -194,7 +194,7 @@ def recommend_courses():
 def user_rating():
     """
     打分
-    /api/rating?course_id=<int>&rate=<int>
+    /api/user-rating
     """
 
     try:
@@ -205,6 +205,7 @@ def user_rating():
         if not uname:
             raise ValueError('Invalid Token')
         
+
         user_rates = DB['users'].find_one({'username': uname})['rates']
         if not user_rates:
             user_rates = []
