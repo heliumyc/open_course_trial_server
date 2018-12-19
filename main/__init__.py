@@ -4,7 +4,7 @@ File Created: 2018-10-03
 Author: Helium (ericyc4@gmail.com)
 Description: main app
 ------
-Last Modified: 2018-12-05
+Last Modified: 2018-12-19
 Modified By: Helium (ericyc4@gmail.com)
 '''
 
@@ -33,6 +33,8 @@ DB = CLIENT[app.config['MONGO_DATABASE']] # 指定的数据库
 KEYWORDS = list(DB['keywords'].find()) # 所有keywords的列表, 也即内涵集合
 NODES = [util_func.after_pop(x, '_id') for x in list(DB['nodes'].find())] # 所有概念点
 KEYWORDS_DICT = {k['wid']: k['keyword'] for k in KEYWORDS}
+COURSE_VECTORS = {c['cid']: c for c in DB['tfidf'].find()}
+
 
 # print(sorted([len(x['extent']) for x in NODES], reverse=True))
 from main.views import user

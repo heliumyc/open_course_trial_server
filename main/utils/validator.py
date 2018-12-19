@@ -4,7 +4,7 @@ File Created: 2018-10-02
 Author: Helium (ericyc4@gmail.com)
 Description: 使用wtform检验url的params是否合法
 ------
-Last Modified: 2018-11-26
+Last Modified: 2018-12-19
 Modified By: Helium (ericyc4@gmail.com)
 '''
 
@@ -73,7 +73,7 @@ class RecommendCoursesParams(Form):
     """
     page = IntegerField('page')
     page_size = IntegerField('page_size')
-    # token = StringField('token')
+    version = IntegerField('version')
 
     def validate_page(self, field):
         page = field.data
@@ -83,6 +83,11 @@ class RecommendCoursesParams(Form):
     def validate_page_size(self, field):
         page_size = field.data
         if page_size is None or page_size < 0:
+            raise ValidationError
+
+    def validate_version(self, field):
+        version = field.data
+        if version > 3 or version < 0:
             raise ValidationError
 
 # class GraphParams(Form):

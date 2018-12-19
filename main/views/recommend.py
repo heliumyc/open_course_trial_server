@@ -4,7 +4,7 @@ File Created: 2018-10-03
 Author: Helium (ericyc4@gmail.com)
 Description: 推荐模块
 ------
-Last Modified: 2018-12-11
+Last Modified: 2018-12-19
 Modified By: Helium (ericyc4@gmail.com)
 '''
 
@@ -13,11 +13,13 @@ from flask import jsonify
 from wtforms import ValidationError
 from main import app
 from main import DB
+from main import COURSE_VECTORS
 from main.utils.validator import RatingParams
 from main.utils.validator import RecommendCoursesParams
 from main.utils.util_func import calc_sim
 from main.utils.util_func import after_pop
 from main.utils.auth import verify_auth_token
+from main.utils.recommend import recommend
 from main.models import ResponseType
 from main.models import Response
 
@@ -126,6 +128,7 @@ def recommend_courses():
 
         page = recommend_params.page.data
         page_size = recommend_params.page_size.data
+        version = recommend_params.version.data
         token = request.headers.get('Authorization', '')
 
         # auth validation
@@ -139,34 +142,16 @@ def recommend_courses():
             raise ValueError('User Not Found')
 
         # create user model
-        user_vector = dict()
         user_rates = user.get('rates', None)
-
         if not user_rates:
             return Response.get_custom_response(
                 ResponseType.FAILURE, "unable to recommend").get_json()
-        for rate in user_rates:
-            weights = DB['tfidf'].find_one({'cid': rate['cid']})['tf-idf']
-            for word, weight in weights.items():
-                user_vector[word] = user_vector.get(word, 0) + weight*rate['rate']
-
-        # sort sim
-        course_vectors = DB['tfidf'].find()
-        course_sim = [{
-            'cid': vec['cid'],
-            'sim': calc_sim(user_vector, vec['tf-idf'], vec['norm'])
-        } for vec in course_vectors]
-        user_sort = sorted(course_sim, key=lambda x: x['sim'], reverse=True)
         
-        # filter out what user had viewed that is what has been rated
-        # rates_id = set([r['cid'] for r in user_rates])
-        # user_sort = filter(lambda x: x['cid'] not in rates_id, user_sort)
-
-        user_model = list(user_sort)
+        user_model = recommend(user_rates, COURSE_VECTORS, version)
         # store user model
         DB['users'].update(
             {'username': uname}, 
-            {'$set': {'usermodel': list(user_sort)}}
+            {'$set': {'usermodel': user_model}}
         )
 
         user_courses = [x for x in user_model]
