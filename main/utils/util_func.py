@@ -4,7 +4,7 @@ File Created: 2018-09-27
 Author: Helium (ericyc4@gmail.com)
 Description: 包含一些自定义的小函数
 ------
-Last Modified: 2018-11-28
+Last Modified: 2018-12-19
 Modified By: Helium (ericyc4@gmail.com)
 '''
 
