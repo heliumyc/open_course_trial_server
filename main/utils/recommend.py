@@ -4,7 +4,7 @@ File Created: 2018-12-20
 Author: Helium (ericyc4@gmail.com)
 Description: 
 ------
-Last Modified: 2018-12-20
+Last Modified: 2018-12-21
 Modified By: Helium (ericyc4@gmail.com)
 '''
 from main.utils.util_func import calc_sim
@@ -16,7 +16,7 @@ def rec1(user_rates, course_vectors):
         for word, weight in weights.items():
             user_vector[word] = user_vector.get(word, 0) + weight*rate['rate']
 
-    print(course_vectors)
+    # print(course_vectors)
     # sort sim
     course_sim = [{
         'cid': vec['cid'],
@@ -28,7 +28,7 @@ def rec1(user_rates, course_vectors):
     # filter out what user had viewed that is what has been rated
     # rates_id = set([r['cid'] for r in user_rates])
     # user_sort = filter(lambda x: x['cid'] not in rates_id, user_sort)
-    print(user_model)
+    # print(user_model)
     return user_model
 
 def rec2(user_rates, course_vectors):
@@ -39,7 +39,7 @@ def rec2(user_rates, course_vectors):
             new_rate = 0 if rate['rate'] < 0.6 else rate['rate']
             user_vector[word] = user_vector.get(word, 0) + weight*new_rate
 
-    print(course_vectors)
+    # print(course_vectors)
     # sort sim
     course_sim = [{
         'cid': vec['cid'],
@@ -51,7 +51,7 @@ def rec2(user_rates, course_vectors):
     # filter out what user had viewed that is what has been rated
     # rates_id = set([r['cid'] for r in user_rates])
     # user_sort = filter(lambda x: x['cid'] not in rates_id, user_sort)
-    print(user_model)
+    # print(user_model)
     return user_model
 
 def rec3(user_rates, course_vectors):
@@ -61,7 +61,7 @@ def rec3(user_rates, course_vectors):
         for word, weight in weights.items():
             user_vector[word] = user_vector.get(word, 0.6) + weight*rate['rate']
 
-    print(course_vectors)
+    # print(course_vectors)
     # sort sim
     course_sim = [{
         'cid': vec['cid'],
@@ -73,7 +73,7 @@ def rec3(user_rates, course_vectors):
     # filter out what user had viewed that is what has been rated
     # rates_id = set([r['cid'] for r in user_rates])
     # user_sort = filter(lambda x: x['cid'] not in rates_id, user_sort)
-    print(user_model)
+    # print(user_model)
     return user_model
 
 def recommend(user_rates, course_vectors, version):
