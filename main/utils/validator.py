@@ -4,7 +4,7 @@ File Created: 2018-10-02
 Author: Helium (ericyc4@gmail.com)
 Description: 使用wtform检验url的params是否合法
 ------
-Last Modified: 2018-12-19
+Last Modified: 2018-12-23
 Modified By: Helium (ericyc4@gmail.com)
 '''
 
@@ -12,6 +12,7 @@ from wtforms import Form
 from wtforms import IntegerField
 from wtforms import StringField
 from wtforms import FloatField
+from wtforms import BooleanField
 from wtforms import ValidationError
 # from main.utils.util_func import convert_int
 
@@ -55,6 +56,7 @@ class RatingParams(Form):
     """
     course_id = IntegerField('course_id')
     rate = IntegerField('rate')
+    is_evaluation = BooleanField('is_evaluation')
     # token = StringField('token')
 
     def validate_course_id(self, field):

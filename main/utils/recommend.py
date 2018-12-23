@@ -4,7 +4,7 @@ File Created: 2018-12-20
 Author: Helium (ericyc4@gmail.com)
 Description: 
 ------
-Last Modified: 2018-12-21
+Last Modified: 2018-12-22
 Modified By: Helium (ericyc4@gmail.com)
 '''
 from main.utils.util_func import calc_sim
@@ -36,7 +36,7 @@ def rec2(user_rates, course_vectors):
     for rate in user_rates:
         weights = course_vectors[rate['cid']]['tf-idf']
         for word, weight in weights.items():
-            new_rate = 0 if rate['rate'] < 0.6 else rate['rate']
+            new_rate = 0 if rate['rate'] < 0.7 else rate['rate']
             user_vector[word] = user_vector.get(word, 0) + weight*new_rate
 
     # print(course_vectors)

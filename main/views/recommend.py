@@ -4,7 +4,7 @@ File Created: 2018-10-03
 Author: Helium (ericyc4@gmail.com)
 Description: 推荐模块
 ------
-Last Modified: 2018-12-19
+Last Modified: 2018-12-23
 Modified By: Helium (ericyc4@gmail.com)
 '''
 
@@ -27,7 +27,7 @@ from main.models import Response
 def rating():
     """
     打分
-    /api/rating?course_id=<int>&rate=<int>
+    /api/rating?course_id=<int>&rate=<int>&is_evaluation=<bool>
     """
 
     try:
@@ -36,6 +36,7 @@ def rating():
             raise ValidationError
         rate = rate_params.rate.data * 0.2 # 1 - 5 => 0.2 - 1
         course_id = rate_params.course_id.data
+        is_evalution = rate_params.is_evaluation.data
         token = request.headers.get('Authorization', '')
 
         # by convention jwt token is like "Bearer <token string>"
@@ -43,15 +44,27 @@ def rating():
         if not uname:
             raise ValueError('Invalid Token')
 
-        # check whether this rate exists
-        if not DB['users'].find_one({'username': uname, 'rates.cid': course_id}):
-            DB['users'].update(
-                {'username': uname}, 
-                {'$push': {'rates': {'cid': course_id, 'rate': rate}}})
+        if is_evalution:
+            # check whether this rate exists
+            if not DB['users'].find_one({'username': uname, 'evaluation.cid': course_id}):
+                DB['users'].update(
+                    {'username': uname}, 
+                    {'$push': {'evaluation': {'cid': course_id, 'rate': rate}}})
+            else:
+                DB['users'].update(
+                    {'username': uname, 'evaluation.cid': course_id}, 
+                    {'$set': {'evaluation.$.rate': rate}})
         else:
-            DB['users'].update(
-                {'username': uname, 'rates.cid': course_id}, 
-                {'$set': {'rates.$.rate': rate}})
+            # check whether this rate exists
+            if not DB['users'].find_one({'username': uname, 'rates.cid': course_id}):
+                DB['users'].update(
+                    {'username': uname}, 
+                    {'$push': {'rates': {'cid': course_id, 'rate': rate}}})
+            else:
+                DB['users'].update(
+                    {'username': uname, 'rates.cid': course_id}, 
+                    {'$set': {'rates.$.rate': rate}})
+            
         response = Response(ResponseType.SUCCESS)
 
     except ValidationError:
@@ -60,56 +73,6 @@ def rating():
         response = Response.get_custom_response(ResponseType.FAILURE, str(ve))
     except Exception as e:
         print(e)
-        response = Response(ResponseType.INTERNAL_ERR)
-
-    return response.get_json()
-
-    """
-    推荐
-    /api/rating
-    """
-
-    try:
-        token = request.headers.get('Authorization', '')
-        if not token:
-            raise ValueError('Invalid Token')
-        uname = verify_auth_token(token[7:])
-        if not uname:
-            raise ValueError('Invalid Token')
-
-        # create user model
-        user_vector = dict()
-        user_rates = DB['users'].find_one({'username': uname})['rates']
-        if not user_rates:
-            return Response(ResponseType.SUCCESS).get_json()
-        for rate in user_rates:
-            weights = DB['tfidf'].find_one({'cid': rate['cid']})['tf-idf']
-            for word, weight in weights.items():
-                user_vector[word] = user_vector.get(word, 0) + weight*rate['rate']
-        
-        # sort courses using user model
-        course_vectors = DB['tfidf'].find()
-        course_sim = [{
-            'cid': vec['cid'],
-            'sim': calc_sim(user_vector, vec['tf-idf'], vec['norm'])
-        } for vec in course_vectors]
-        user_sort = sorted(course_sim, key=lambda x: x['sim'], reverse=True)
-
-        # filter out what user had viewed that is what has been rated
-        rates_id = set([r['cid'] for r in user_rates])
-        user_sort = filter(lambda x: x['cid'] not in rates_id, user_sort)
-
-        test = list(user_sort)
-        print(test)
-
-        # store user model
-        DB['users'].update(
-            {'username': uname}, 
-            {'$set': {'usermodel': test}}
-        )
-        response = Response(ResponseType.SUCCESS)
-    except Exception as e:
-        print('recommend err', e)
         response = Response(ResponseType.INTERNAL_ERR)
 
     return response.get_json()
@@ -189,14 +152,20 @@ def user_rating():
         uname = verify_auth_token(token[7:])
         if not uname:
             raise ValueError('Invalid Token')
-        
 
-        user_rates = DB['users'].find_one({'username': uname})['rates']
+        user = DB['users'].find_one({'username': uname})
+        user_rates = user.get('rates', [])
+        user_eval = user.get('evaluation', [])
+        
         if not user_rates:
             user_rates = []
+        if not user_eval:
+            user_eval = []
         response = Response(ResponseType.SUCCESS)
         response.update_attr('rates', 
                 {str(rate['cid']): rate['rate'] for rate in user_rates})
+        response.update_attr('evaluation',
+                {str(rate['cid']): rate['rate'] for rate in user_eval})
 
     except ValueError as ve:
         response = Response.get_custom_response(ResponseType.FAILURE, str(ve))

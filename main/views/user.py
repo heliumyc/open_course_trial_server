@@ -4,10 +4,11 @@ File Created: 2018-10-03
 Author: Helium (ericyc4@gmail.com)
 Description: user login and register
 ------
-Last Modified: 2018-11-27
+Last Modified: 2018-12-23
 Modified By: Helium (ericyc4@gmail.com)
 '''
 
+import time
 from flask import jsonify
 from flask import request
 from main import app
@@ -44,7 +45,9 @@ def register():
             response['message'] = '用户名已经存在'
             raise Exception
         mongo_col.insert_one({'username': username,
-                              'password_hash': hash_password(password)})
+                              'password_hash': hash_password(password),
+                              'date': time.asctime(),
+                              'timestamp': int(time.time())})
         response['token'] = generate_auth_token(username)
         response['username'] = username
     except Exception as e:
@@ -69,7 +72,7 @@ def login():
         password = user_info.get('password', None)
         token = user_info.get('token', None)
         if not username:
-            response['message'] = '用户名不能为空'
+            response['message'] = 'Empty username is not allowed'
             raise ValueError
         valid = False
         mongo_col = DB['users']
@@ -86,12 +89,12 @@ def login():
             response['token'] = generate_auth_token(username)
             response['username'] = username
         else:
-            response['message'] = '密码验证失败'
+            raise ValueError('Wrong Password')
     except ValueError as ve:
         response['status'] = 'error'
         response['message'] = str(ve)
     except Exception as e:
         print(e)
         response['status'] = 'error'
-        response['message'] = '请求无效'
+        response['message'] = 'Invalid Request'
     return jsonify(response)
