@@ -8,11 +8,8 @@ import json
 import jieba.posseg as pseg
 
 MONGO_URI = '127.0.0.1:27017'
-MONGO_DATABASE = 'open_course_test'
-CLIENT = pymongo.MongoClient(MONGO_URI,  
-            username='helium',
-            password='42',
-            authSource=MONGO_DATABASE)
+MONGO_DATABASE = 'open_course'
+CLIENT = pymongo.MongoClient(MONGO_URI)
 DB = CLIENT[MONGO_DATABASE]
 
 def read_corpse() -> list:
@@ -39,8 +36,8 @@ def analyzer(content: str, allow_pos: set, synonyms: dict, stopwords: set) -> li
 def calc_norm(arr):
     return math.sqrt(sum(map(lambda x: x**2, arr)))
 
-def store_vector(vectors: list) -> None:
-    col = DB['tfidf']
+def store_vector(db, vectors: list) -> None:
+    col = DB[db]
     col.insert_many([
         {
             'cid': index,
@@ -49,19 +46,33 @@ def store_vector(vectors: list) -> None:
         } for index, vec in enumerate(vectors)
     ])
 
+
 def load_synonyms(syn_file_path: str):
     with open(syn_file_path, 'r', encoding='utf8') as rf:
         synonyms = json.load(rf)
     return synonyms
 
 def main():
+    # tfidf = Tfidf()
+    # corpse = read_corpse()
+    # allow_pos = {'n','nr','ns','nt','nz'}
+    # stopwords = read_stopwords('./stopwords.txt')
+    # synonyms = load_synonyms('./synonyms.json')
+    # mat = tfidf.vectorize(corpse, lambda text: analyzer(text, allow_pos, synonyms, stopwords))
+    # store_vector('tfidf', tfidf.get_words_weight_table())
+
     tfidf = Tfidf()
-    corpse = read_corpse()
-    allow_pos = {'n','nr','ns','nt','nz'}
-    stopwords = read_stopwords('./stopwords.txt')
-    synonyms = load_synonyms('./synonyms.json')
-    mat = tfidf.vectorize(corpse, lambda text: analyzer(text, allow_pos, synonyms, stopwords))
-    store_vector(tfidf.get_words_weight_table())
+    # corpse = read_corpse()
+    corpse = [' '.join(c['keywords']) for c in DB['courses'].find()]
+    def temp_analyzer(content: str) -> list:
+        res = content.split()
+        res = [x.replace('.', '-') for x in res]
+        return res
+
+    mat = tfidf.vectorize(corpse, temp_analyzer)
+    store_vector('kwtfidf', tfidf.get_words_weight_table())
+
+
 
 if __name__ == "__main__":
     main()
