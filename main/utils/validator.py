@@ -75,7 +75,7 @@ class RecommendCoursesParams(Form):
     """
     page = IntegerField('page')
     page_size = IntegerField('page_size')
-    version = IntegerField('version')
+    mode = IntegerField('mode')
 
     def validate_page(self, field):
         page = field.data
@@ -89,7 +89,7 @@ class RecommendCoursesParams(Form):
 
     def validate_version(self, field):
         version = field.data
-        if version > 3 or version < 0:
+        if version > 7 or version < 0:
             raise ValidationError
 
 # class GraphParams(Form):

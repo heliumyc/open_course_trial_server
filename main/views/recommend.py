@@ -13,15 +13,30 @@ from flask import jsonify
 from wtforms import ValidationError
 from main import app
 from main import DB
-from main import COURSE_VECTORS
+from main import COURSE_VECTORS_BASELINE
+from main import COURSE_VECTORS_KM
 from main.utils.validator import RatingParams
 from main.utils.validator import RecommendCoursesParams
 from main.utils.util_func import calc_sim
 from main.utils.util_func import after_pop
 from main.utils.auth import verify_auth_token
 from main.utils.recommend import recommend
+from main.utils.recommend import merge_vectors
 from main.models import ResponseType
 from main.models import Response
+
+RECOMMEND_PARAMS = {
+    '1': 0, '2': 0.3, '3': 0.4, '4': 0.5, '5': 0.6, '6': 0.7, '7': 1
+}
+print('start of init course_vectors for diff version')
+COURSE_VECTORS_DICT = {
+    mode: merge_vectors(alpha, 1-alpha, COURSE_VECTORS_BASELINE, COURSE_VECTORS_KM)
+    for mode, alpha in RECOMMEND_PARAMS.items()
+}
+# with open('f:/test.txt', 'w', encoding='utf8') as wf:
+#     for k,v in COURSE_VECTORS_DICT.items():
+#         wf.write(str(v)+'\n')
+print('end of init course_vectors for diff version')
 
 @app.route('/api/rating', methods=['GET'], strict_slashes=False)
 def rating():
@@ -91,7 +106,7 @@ def recommend_courses():
 
         page = recommend_params.page.data
         page_size = recommend_params.page_size.data
-        version = recommend_params.version.data
+        mode = recommend_params.mode.data
         token = request.headers.get('Authorization', '')
 
         # auth validation
@@ -110,16 +125,25 @@ def recommend_courses():
             return Response.get_custom_response(
                 ResponseType.FAILURE, "unable to recommend").get_json()
         
-        user_model = recommend(user_rates, COURSE_VECTORS, version)
+        course_vectors = COURSE_VECTORS_DICT[str(mode)]
+        user_model = recommend(user_rates, course_vectors)
+
         # store user model
         DB['users'].update(
             {'username': uname}, 
             {'$set': {'usermodel': user_model}}
         )
 
-        user_courses = [x for x in user_model]
+        user_courses = [x['cid'] for x in user_model]
+
+        # change the order the full rating items
+        user_rates_dict = {x['cid']: x['rate'] for x in user_rates}
+        full_rates = [c for c in user_courses if user_rates_dict.get(c,0) == 1]
+        other_rates = [c for c in user_courses if user_rates_dict.get(c,0) < 1]
+        user_courses = full_rates + other_rates
+
         courses = [
-            after_pop(DB['courses'].find_one({'cid': a['cid']}), '_id')
+            after_pop(DB['courses'].find_one({'cid': a}), '_id')
             for a in user_courses[(page-1)*page_size:page*page_size]
         ]
 

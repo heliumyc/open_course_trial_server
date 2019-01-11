@@ -38,6 +38,7 @@ def calc_norm(arr):
 
 def store_vector(db, vectors: list) -> None:
     col = DB[db]
+    col.drop()
     col.insert_many([
         {
             'cid': index,
@@ -52,15 +53,16 @@ def load_synonyms(syn_file_path: str):
         synonyms = json.load(rf)
     return synonyms
 
-def main():
-    # tfidf = Tfidf()
-    # corpse = read_corpse()
-    # allow_pos = {'n','nr','ns','nt','nz'}
-    # stopwords = read_stopwords('./stopwords.txt')
-    # synonyms = load_synonyms('./synonyms.json')
-    # mat = tfidf.vectorize(corpse, lambda text: analyzer(text, allow_pos, synonyms, stopwords))
-    # store_vector('tfidf', tfidf.get_words_weight_table())
+def run_db1():
+    tfidf = Tfidf()
+    corpse = read_corpse()
+    allow_pos = {'n','nr','ns','nt','nz'}
+    stopwords = read_stopwords('./stopwords.txt')
+    synonyms = load_synonyms('./synonyms.json')
+    mat = tfidf.vectorize(corpse, lambda text: analyzer(text, allow_pos, synonyms, stopwords))
+    store_vector('tfidf', tfidf.get_words_weight_table())
 
+def run_db2():
     tfidf = Tfidf()
     # corpse = read_corpse()
     corpse = [' '.join(c['keywords']) for c in DB['courses'].find()]
@@ -72,7 +74,9 @@ def main():
     mat = tfidf.vectorize(corpse, temp_analyzer)
     store_vector('kwtfidf', tfidf.get_words_weight_table())
 
-
+def main():
+    run_db1()
+    run_db2()
 
 if __name__ == "__main__":
     main()

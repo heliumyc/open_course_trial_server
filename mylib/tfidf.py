@@ -23,6 +23,7 @@ class Tfidf():
         self.matrix = None
         self.corpse_size = 0
         self.sparse = sparse
+        self.frequency_type = 'term-frequency' # frequency or frequency/sum
         # TODO
         if self.sparse:
             import scipy
@@ -55,7 +56,7 @@ class Tfidf():
         """
         return content.split()
         
-    def _count_frequency(self) -> None:
+    def _count_raw_frequency(self) -> None:
         """
         count frequency
         """
@@ -66,6 +67,25 @@ class Tfidf():
         for index, text in enumerate(self.corpse):
             for word in text:
                 self.tf[index][self.words_id[word]] += 1
+
+    def _build_tf(self) -> None:
+        """
+        recalculate tf
+        """
+        ## raw term frequency log(1+f)
+        ## no sure whether it is proper to do so
+        # np.seterr(divide = 'ignore')
+        # self.tf = np.log10(self.tf+1)
+
+        ## term frequency f/sum(f)
+        total_freqs = np.sum(self.tf, axis=1)
+        self.tf = self.tf / total_freqs.reshape(-1,1)
+        assert np.isclose(np.sum(self.tf, axis=1),np.ones(total_freqs.shape)).all()
+        assert (self.tf >= 0).all()
+
+        ## augmented frequency 0.5+0.5(n/max)
+        # max_freqs = np.max(self.tf, axis=1)
+        # self.tf =  0.5 + 0.5* (self.tf / max_freqs.reshape(-1,1))
 
     def vectorize(self, corpse: list, tokenizer: Callable[[str],list]=default_tokenizer) -> list:
         """
@@ -83,15 +103,11 @@ class Tfidf():
             self.corpse = list(map(tokenizer, corpse))
 
         self._build_words_list()
-        self._count_frequency()
+        self._count_raw_frequency()
         self._build_idf()
+        self._build_tf()
 
         # calculate tf-idf
-        # tf-idf: weight = (1+log(f_ij))*log(N/n_i)
-        # no sure whether it is proper to do so
-        np.seterr(divide = 'ignore')
-        self.tf = np.log10(self.tf)
-        self.tf = np.where(np.isfinite(self.tf), self.tf+1, 0)
         self.matrix = self.tf*self.idf
         return self.matrix.tolist()
 
