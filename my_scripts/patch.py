@@ -1,3 +1,5 @@
+#!/usr/bin/python
+# -*- coding: utf8 -*-
 import pymongo
 
 MONGO_URI = '127.0.0.1:27017'
