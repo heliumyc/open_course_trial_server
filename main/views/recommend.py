@@ -28,15 +28,10 @@ from main.models import Response
 RECOMMEND_PARAMS = {
     '1': 0, '2': 0.3, '3': 0.4, '4': 0.5, '5': 0.6, '6': 0.7, '7': 1
 }
-print('start of init course_vectors for diff version')
 COURSE_VECTORS_DICT = {
     mode: merge_vectors(alpha, 1-alpha, COURSE_VECTORS_BASELINE, COURSE_VECTORS_KM)
     for mode, alpha in RECOMMEND_PARAMS.items()
 }
-# with open('f:/test.txt', 'w', encoding='utf8') as wf:
-#     for k,v in COURSE_VECTORS_DICT.items():
-#         wf.write(str(v)+'\n')
-print('end of init course_vectors for diff version')
 
 @app.route('/api/rating', methods=['GET'], strict_slashes=False)
 def rating():

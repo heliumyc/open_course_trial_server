@@ -20,11 +20,23 @@ def merge_vectors(alpha, beta, vecs1, vecs2):
             k: alpha*c1_data['tf-idf'].get(k,0) + beta*c2_data['tf-idf'].get(k,0) 
             for k in kws
         }
+        new_tfidf = normalization(new_tfidf)
         new_vectors[cid]['tf-idf'] = new_tfidf
         new_vectors[cid]['norm'] = math.sqrt(sum(
             map(lambda x: new_tfidf[x]**2, new_tfidf)
         ))
     return new_vectors
+
+def normalization(vec):
+    x_max = -1
+    x_min = 0xffffffff
+    for k, v in vec.items():
+        x_min = min(v, x_min)
+        x_max = max(v, x_max)
+    scale = x_max - x_min
+    for k, v in vec.items():
+        vec[k] = v-x_min/scale
+    return vec
 
 def recommend(user_rates, course_vectors):
     user_vector = dict()
