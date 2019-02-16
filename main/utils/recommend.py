@@ -46,14 +46,18 @@ def recommend(user_rates, course_vectors):
             new_rate = 0 if rate['rate'] < 0.7 else rate['rate']
             user_vector[word] = user_vector.get(word, 0) + weight*new_rate
 
-    # print(course_vectors)
+    # rated cid
+    rates = {rate['cid']: rate['rate'] for rate in user_rates}
+
     # sort sim
     course_sim = [{
         'cid': cid,
-        'sim': calc_sim(user_vector, vec['tf-idf'], vec['norm'])
+        'sim': calc_sim(user_vector, vec['tf-idf'], vec['norm']),
+        'rated': 1 if cid in rates else 0,
+        'star': rates.get(cid, 0)
     } for cid, vec in course_vectors.items()]
 
-    user_sort = sorted(course_sim, key=lambda x: x['sim'], reverse=True)
+    user_sort = sorted(course_sim, key=lambda x: 1000*x['rated']+100*x['star']+x['sim'], reverse=True)
     user_model = list(user_sort)
     # filter out what user had viewed that is what has been rated
     # rates_id = set([r['cid'] for r in user_rates])
