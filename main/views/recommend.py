@@ -32,6 +32,9 @@ COURSE_VECTORS_DICT = {
     mode: merge_vectors(alpha, 1-alpha, COURSE_VECTORS_BASELINE, COURSE_VECTORS_KM)
     for mode, alpha in RECOMMEND_PARAMS.items()
 }
+RATE_MAPPING = {
+    1: -0.5, 2: -0.3, 3: 0, 4: 0.8, 5: 1
+}
 
 @app.route('/api/rating', methods=['GET'], strict_slashes=False)
 def rating():
@@ -44,7 +47,7 @@ def rating():
         rate_params = RatingParams(request.args)
         if not rate_params.validate():
             raise ValidationError
-        rate = rate_params.rate.data * 0.2 # 1 - 5 => 0.2 - 1
+        rate = RATE_MAPPING[rate_params.rate.data]
         course_id = rate_params.course_id.data
         is_evalution = rate_params.is_evaluation.data
         token = request.headers.get('Authorization', '')

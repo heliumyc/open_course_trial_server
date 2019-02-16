@@ -37,3 +37,6 @@ def calc_sim(vec1, vec2, norm_vec2):
         sim += weight*vec2.get(word, 0)
     sim = sim/norm_vec2
     return sim
+
+def is_close(a, b, delta=1e-3):
+    return abs(a-b) < delta

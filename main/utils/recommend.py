@@ -43,7 +43,8 @@ def recommend(user_rates, course_vectors):
     for rate in user_rates:
         weights = course_vectors[rate['cid']]['tf-idf']
         for word, weight in weights.items():
-            new_rate = 0 if rate['rate'] < 0.7 else rate['rate']
+            # change rate
+            new_rate = rate['rate']
             user_vector[word] = user_vector.get(word, 0) + weight*new_rate
 
     # rated cid
