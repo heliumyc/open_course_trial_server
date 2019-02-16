@@ -10,6 +10,10 @@ Modified By: Helium (ericyc4@gmail.com)
 from main.utils.util_func import calc_sim
 import math
 
+RATE_MAPPING = {
+    1: -0.5, 2: -0.3, 3: 0, 4: 0.8, 5: 1
+}
+
 def merge_vectors(alpha, beta, vecs1, vecs2):
     new_vectors = dict()
     for cid, c1_data in vecs1.items():
@@ -44,21 +48,16 @@ def recommend(user_rates, course_vectors):
         weights = course_vectors[rate['cid']]['tf-idf']
         for word, weight in weights.items():
             # change rate
-            new_rate = rate['rate']
+            new_rate = RATE_MAPPING[int(rate['rate'])]
             user_vector[word] = user_vector.get(word, 0) + weight*new_rate
-
-    # rated cid
-    rates = {rate['cid']: rate['rate'] for rate in user_rates}
 
     # sort sim
     course_sim = [{
         'cid': cid,
-        'sim': calc_sim(user_vector, vec['tf-idf'], vec['norm']),
-        'rated': 1 if cid in rates else 0,
-        'star': rates.get(cid, 0)
+        'sim': calc_sim(user_vector, vec['tf-idf'], vec['norm'])
     } for cid, vec in course_vectors.items()]
 
-    user_sort = sorted(course_sim, key=lambda x: 1000*x['rated']+100*x['star']+x['sim'], reverse=True)
+    user_sort = sorted(course_sim, key=lambda x: x['sim'], reverse=True)
     user_model = list(user_sort)
     # filter out what user had viewed that is what has been rated
     # rates_id = set([r['cid'] for r in user_rates])

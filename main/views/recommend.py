@@ -32,9 +32,6 @@ COURSE_VECTORS_DICT = {
     mode: merge_vectors(alpha, 1-alpha, COURSE_VECTORS_BASELINE, COURSE_VECTORS_KM)
     for mode, alpha in RECOMMEND_PARAMS.items()
 }
-RATE_MAPPING = {
-    1: -0.5, 2: -0.3, 3: 0, 4: 0.8, 5: 1
-}
 
 @app.route('/api/rating', methods=['GET'], strict_slashes=False)
 def rating():
@@ -47,7 +44,7 @@ def rating():
         rate_params = RatingParams(request.args)
         if not rate_params.validate():
             raise ValidationError
-        rate = RATE_MAPPING[rate_params.rate.data]
+        rate = rate_params.rate.data
         course_id = rate_params.course_id.data
         is_evalution = rate_params.is_evaluation.data
         token = request.headers.get('Authorization', '')
@@ -136,9 +133,10 @@ def recommend_courses():
 
         # change the order the full rating items
         user_rates_dict = {x['cid']: x['rate'] for x in user_rates}
-        full_rates = [c for c in user_courses if user_rates_dict.get(c,0) == 1]
-        other_rates = [c for c in user_courses if user_rates_dict.get(c,0) < 1]
-        user_courses = full_rates + other_rates
+        rate5 = [c for c in user_courses if user_rates_dict.get(c,0) == 5]
+        rate4 = [c for c in user_courses if user_rates_dict.get(c,0) == 4]
+        other_rates = [c for c in user_courses if user_rates_dict.get(c,0) < 4]
+        user_courses = rate5 + rate4 + other_rates
 
         courses = [
             after_pop(DB['courses'].find_one({'cid': a}), '_id')
